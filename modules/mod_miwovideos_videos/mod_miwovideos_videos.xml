@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="2.5" type="module" client="site" method="upgrade">
+	<name>MiwoVideos - Videos</name>
+    <author>Miwisoft LLC</author>
+    <creationDate>February 2014</creationDate>
+    <authorEmail>info@miwisoft.com</authorEmail>
+    <authorUrl>http://miwisoft.com</authorUrl>
+    <copyright>2009-2016 Miwisoft LLC</copyright>
+    <license>GNU/GPL, http://www.gnu.org/licenses/gpl-2.0.html</license>
+    <version>1.0.0</version>
+	<description>This module is used to show the up-coming videos.</description>
+	
+	<files>
+		<filename module="mod_miwovideos_videos">mod_miwovideos_videos.php</filename>
+		<filename>index.html</filename>
+		<folder>tmpl</folder>
+		<folder>css</folder>	
+	</files>
+	
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+				<field name="moduleclass_sfx" type="text" label="Module Class Suffix" description="PARAMMODULECLASSSUFFIX" />
+				<field name="category_ids" type="text" default="" label="Category IDs" description="Enter the IDs of the categories which you want to display videos, comma seperated. Leave empty for all categories." />
+				<field name="show_category" type="list" default="1" label="Show Category Name" description="Choose whether to show or hide category name.">
+					<option value="1">Yes</option>	
+					<option value="0">No</option>	
+				</field>		
+				<field name="show_channel" type="list" default="0" label="Show channel" description="Choose whether to show or hide channel of videos.">
+					<option value="1">Yes</option>	
+					<option value="0">No</option>	
+				</field>
+				<field name="show_description" type="list" default="0" label="Show description" description="Choose whether to show or hide description of videos.">
+					<option value="1">Yes</option>
+					<option value="0">No</option>
+				</field>
+				<field name="number_videos" type="text" default="6" label="Number of Videos" description="Number of videos to be shown." />
+				<field name="thumb_width" type="text" default="130" label="Thumbnail Width(px)" description="Thumbnail Width(px)" />
+				<field name="thumb_height" type="text" default="100" label="Thumbnail Height(px)" description="Thumbnail Height(px)" />
+				<field name="item_id" type="text" default="" label="ItemID" description="Menu Item ID" />
+			</fieldset>
+		</fields>		
+	</config>	
+</extension>

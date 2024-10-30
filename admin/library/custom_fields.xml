@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+    <config>
+        <fields name="custom_fields">
+            <fieldset name="custom_fields" addfieldpath="/miwovideos/admin/library/elements">
+            </fieldset>
+        </fields>
+    </config>
+</metadata>

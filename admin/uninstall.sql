@@ -1,0 +1,15 @@
+DROP TABLE IF EXISTS `#__miwovideos_categories`;
+DROP TABLE IF EXISTS `#__miwovideos_channels`;
+DROP TABLE IF EXISTS `#__miwovideos_fields`;
+DROP TABLE IF EXISTS `#__miwovideos_files`;
+DROP TABLE IF EXISTS `#__miwovideos_likes`;
+DROP TABLE IF EXISTS `#__miwovideos_playlists`;
+DROP TABLE IF EXISTS `#__miwovideos_playlist_videos`;
+DROP TABLE IF EXISTS `#__miwovideos_processes`;
+DROP TABLE IF EXISTS `#__miwovideos_process_log`;
+DROP TABLE IF EXISTS `#__miwovideos_process_type`;
+DROP TABLE IF EXISTS `#__miwovideos_reports`;
+DROP TABLE IF EXISTS `#__miwovideos_report_reasons`;
+DROP TABLE IF EXISTS `#__miwovideos_subscriptions`;
+DROP TABLE IF EXISTS `#__miwovideos_videos`;
+DROP TABLE IF EXISTS `#__miwovideos_video_categories`;

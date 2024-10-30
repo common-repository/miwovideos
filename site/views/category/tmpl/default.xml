@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="Category">
+		<message>Display category list or videos from a category.</message>
+	</layout>
+	<state>
+		<name>Category</name>
+		<description>Display category list or videos from a category.</description>
+		<fields name="request">			
+			<fieldset name="request"
+				addfieldpath="/miwovideos/admin/library/elements">
+				<field name="category_id" type="miwovideoscategories" size="3" default="0" label="Category" description="Choose the category which you want to display videos." />
+			</fieldset>
+		</fields>
+	</state>
+</metadata>

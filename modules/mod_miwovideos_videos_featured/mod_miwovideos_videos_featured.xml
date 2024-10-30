@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="2.5" type="module" client="site" method="upgrade">
+    <name>MiwoVideos - Featured Videos</name>
+    <author>Miwisoft LLC</author>
+    <creationDate>February 2014</creationDate>
+    <authorEmail>info@miwisoft.com</authorEmail>
+    <authorUrl>http://miwisoft.com</authorUrl>
+    <copyright>2009-2016 Miwisoft LLC</copyright>
+    <license>GNU/GPL, http://www.gnu.org/licenses/gpl-2.0.html</license>
+    <version>1.0.0</version>
+    <description>This module is used to the list of featured videos.</description>
+
+    <files>
+        <filename module="mod_miwovideos_videos_featured">mod_miwovideos_videos_featured.php</filename>
+        <filename>index.html</filename>
+        <folder>tmpl</folder>
+    </files>
+
+    <config>
+        <fields name="params">
+            <fieldset name="basic">
+                <field name="moduleclass_sfx" type="text" label="Module Class Suffix" description="PARAMMODULECLASSSUFFIX" />
+                <field name="number_videos" type="text" default="5" label="Number of Videos" description="Number of Videos to be shown." />
+                <field name="thumb_width" type="text" default="130" label="Thumbnail Width(px)" description="Thumbnail Width(px)" />
+                <field name="thumb_height" type="text" default="100" label="Thumbnail Height(px)" description="Thumbnail Height(px)" />
+                <field name="position" type="list" label="Position" description="Select position to show it on home page or module positions" class="inputbox" default="0">
+                    
+                    <option value="0">Widget</option>
+                    <option value="1">MiwoVideos Home(Top)</option>
+                    <option value="2">MiwoVideos Home(Left)</option>
+                    <option value="3">MiwoVideos Home(Right)</option>
+                    <option value="4">MiwoVideos Home(Bottom)</option>
+
+                </field>
+            </fieldset>
+        </fields>
+    </config>
+</extension>

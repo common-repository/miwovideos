@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="Category List">
+		<message>Display the list of published categories.</message>
+	</layout>
+	<state>
+		<name>Category List</name>
+		<description>Display the list of published categories.</description>
+	</state>
+</metadata>

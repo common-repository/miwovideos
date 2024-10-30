@@ -1,0 +1,53 @@
+.moduletable h3 {
+    padding-left : 10px;
+}
+
+.miwovideos_box_content_99:first-child {
+    box-sizing         : border-box;
+    -webkit-box-sizing : border-box;
+    -moz-box-sizing    : border-box;
+    border             : 1px solid #CCCCCC;
+    border-radius      : 3px;
+
+}
+
+.miwovideos_player {
+    margin : 10px;
+}
+
+.miwovideos-module-thumbs_wrap {
+    overflow         : hidden;
+    margin-top       : 35px;
+    background-color : #F5F5F5;
+    border-top       : 1px solid #CCCCCC
+}
+
+.miwovideos-module-thumbs_wrap:hover {
+    background-color : #F8F8F8;
+}
+
+.miwovideos-modules-module {
+    display: inline-block;
+    width   : 150px;
+    padding : 10px 0 10px 10px;
+    vertical-align: top;
+}
+.miwovideos-module-text-class{
+   padding-top:5px;
+}
+.miwovideos-module-thumbs {
+    box-shadow : 0 0 1px #FFFFFF;
+}
+
+.miwovideos-top-module-wrap {
+    margin-top: 35px;
+    background-color: #F5F5F5;
+    border-top: 1px solid #CCCCCC;
+    padding: 10px;
+    text-align: center;
+}
+
+.miwovideos-top-module {
+    display: inline-block;
+    margin: 10px;
+}

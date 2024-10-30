@@ -1,0 +1,181 @@
+div.col { float: left; }
+div.width-10 { width: 10%; }
+div.width-30 { width: 30%; }
+div.width-40 { width: 40%; }
+div.width-45 { width: 45%; }
+div.width-50 { width: 50%; }
+div.width-55 { width: 55%; }
+div.width-60 { width: 60%; }
+div.width-70 { width: 70%; }
+div.width-100{ width: 100%; }
+
+.nopadding {
+    padding : 0px !important;
+}
+
+/* MIWISOFT END */
+.icon-48-miwovideos {
+    background-image : url(../images/toolbar.png);
+    padding-left     : 260px !important;
+    line-height      : 50px;
+}
+
+.hide {
+    display    : none;
+    visibility : hidden;
+}
+
+/** general **/
+table.adminlist {
+    border-spacing : 1px;
+}
+
+table.admintable span.hasTip {
+    padding-right : 18px;
+    background    : url(../images/icon-14-tooltip.png) no-repeat 100% 55%;
+}
+
+.pane-sliders {
+    margin : 17px 0 0 !important;
+}
+
+table.admintable td.key2 {
+    background-color : #F6F6F6;
+    border-bottom    : 1px solid #E9E9E9;
+    border-right     : 1px solid #E9E9E9;
+    color            : #666666;
+    font-weight      : bold;
+    text-align       : left;
+    padding-left     : 5px;
+    vertical-align   : middle;
+    height           : 22px;
+    width            : 180px;
+}
+
+table.admintable td.value2 {
+    padding-left : 7px;
+}
+
+table.admintable td label {
+    clear     : none;
+    min-width : 40px;
+    margin    : 3px 2px;
+}
+
+/*form#adminForm fieldset.adminform {
+	background-color: white;
+}*/
+
+table.admintable {
+    background-color : white;
+    width            : 100%;
+}
+
+div.current fieldset.miwovideos_recurring_setting input,
+div.current fieldset.miwovideos_recurring_setting img {
+    float : none;
+}
+
+.img_preview {
+    max-width      : 65px;
+    max-height     : 65px;
+    float          : left;
+    margin-left    : 20px;
+    vertical-align : top;
+}
+
+table.admintable td label {
+    clear     : none;
+    min-width : 40px;
+    margin    : 3px 2px;
+    display   : inline-block;
+}
+
+.form-horizontal label.control-label {
+    text-align : left;
+}
+
+.form-horizontal div.controls label {
+    clear     : none;
+    min-width : 40px;
+    display   : inline-block;
+}
+
+.clearfloat {
+    float : none;
+}
+
+#recurring_end_date_img {
+    float : right;
+}
+
+#recurring_end_date {
+    float : none;
+}
+
+table.adminlist td.text_center, table.adminlist th.text_center {
+    text-align : center;
+}
+
+table.adminlist td.text_left, table.adminlist th.text_left {
+    text-align : left;
+}
+
+table.adminlist td.text_right, table.adminlist th.text_right {
+    text-align : right;
+}
+
+.img_preview_list {
+    width          : 75px;
+    height         : auto;
+    vertical-align : middle;
+    display        : block;
+    margin-left    : auto;
+    margin-right   : auto;
+}
+
+.miwovideos_remote_links {
+    margin-top    : 5px;
+    margin-bottom : 5px;
+    font-weight   : bold;
+}
+
+.miwovideos_remote_link_textarea, .miwovideos_embed_code_textarea {
+    width      : 30%;
+    height     : 100px;
+    max-height : 500px;
+    display    : block;
+}
+
+.miwovideos_available_fields {
+    margin-bottom : 10px;
+}
+
+.miwovideos_field {
+    display          : inline-block;
+    background-color : #F1F1F1;
+    margin-right     : 5px;
+    margin-bottom    : 5px;
+    padding          : 7px 10px 7px 10px;
+    border-radius    : 5px;
+    font-weight      : bold;
+    cursor           : default;
+}
+
+.miwi_filter {
+    float : right;
+}
+
+.miwi_search {
+    float     : left;
+    min-width : 400px;
+}
+
+#miwovideos_folder_tree {
+    width       : 50%;
+    padding-top : 10px;
+}
+
+.form-validate {
+    padding : 10px;
+}

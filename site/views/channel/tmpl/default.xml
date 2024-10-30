@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="Single Channel">
+		<message>Display a single channel in details.</message>
+	</layout>
+	<state>
+		<name>Single Channel</name>
+		<fields name="request">
+			<fieldset name="request" addfieldpath="/miwovideos/admin/library/elements">
+				<field name="channel_id" type="miwovideoschannels" size="3" default="0" label="Channel" description="Choose the channel which you want to display." />
+			</fieldset>
+		</fields>	
+	</state>
+</metadata>

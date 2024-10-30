@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+    <layout title="Upload">
+        <message>Display the video upload form.</message>
+    </layout>
+    <state>
+        <name>Upload</name>
+        <description>Display the video upload form.</description>
+        <fields name="request">
+            <fieldset name="request">
+                <field name="dashboard" type="hidden" default="1" label="Video"/>
+            </fieldset>
+        </fields>
+    </state>
+</metadata>

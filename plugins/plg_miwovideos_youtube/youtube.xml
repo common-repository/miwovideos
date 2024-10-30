@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="2.5" type="plugin" group="miwovideos" method="upgrade">
+	<name>MiwoVideos - Remote Youtube</name>
+    <author>Miwisoft LLC</author>
+    <creationDate>February 2014</creationDate>
+    <authorEmail>info@miwisoft.com</authorEmail>
+    <authorUrl>http://miwisoft.com</authorUrl>
+    <copyright>2009-2016 Miwisoft LLC</copyright>
+    <license>GNU/GPL, http://www.gnu.org/licenses/gpl-2.0.html</license>
+	<version>1.0.0</version>
+	<description>Enables integration of MiwoVideos with Youtube.com</description>
+	
+	<files>
+		<filename plugin="youtube">youtube.php</filename>
+		<filename>index.html</filename>
+	</files>
+	
+	<languages>
+		<language tag="en-GB">language/en-GB.plg_miwovideos_youtube.ini</language>
+		<language tag="en-GB">language/en-GB.plg_miwovideos_youtube.sys.ini</language>
+	</languages>
+	
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+				<field name="autohide" type="list" default="2" label="PLG_MIWOVIDEOS_YOUTUBE_FIELD_AUTOHIDE_LABEL" description="PLG_MIWOVIDEOS_YOUTUBE_FIELD_AUTOHIDE_DESC">
+					<option value="0">JDISABLED</option>
+					<option value="1">PLG_MIWOVIDEOS_YOUTUBE_OPTION_1SEC</option>
+					<option value="2">PLG_MIWOVIDEOS_YOUTUBE_OPTION_2SEC</option>
+				</field>
+                <field name="autoplay" type="list" default="global" label="LABEL_AUTOPLAY" description="DESC_AUTOPLAY">
+                    <option value="global">OPTION_GLOBAL</option>
+                    <option value="1">MYES</option>
+                    <option value="0">MNO</option>
+                </field>
+				<field name="border" type="radio" class="btn-group" default="0" label="PLG_MIWOVIDEOS_YOUTUBE_FIELD_BORDER_LABEL" description="PLG_MIWOVIDEOS_YOUTUBE_FIELD_BORDER_DESC">
+					<option value="0">MHIDE</option>
+					<option value="1">MSHOW</option>
+				</field>
+				<field name="cc_load_policy" type="radio" class="btn-group" default="" label="PLG_MIWOVIDEOS_YOUTUBE_FIELD_CCLOADPOLICY_LABEL" description="PLG_MIWOVIDEOS_YOUTUBE_FIELD_CCLOADPOLICY_DESC">
+					<option value="">JDISABLED</option>
+					<option value="1">JENABLED</option>
+				</field>
+				<field name="color" type="radio" class="btn-group" default="red" label="PLG_MIWOVIDEOS_YOUTUBE_FIELD_COLOR_LABEL" description="PLG_MIWOVIDEOS_YOUTUBE_FIELD_COLOR_DESC">
+					<option value="red">PLG_MIWOVIDEOS_YOUTUBE_OPTION_RED</option>
+					<option value="white">PLG_MIWOVIDEOS_YOUTUBE_OPTION_WHITE</option>
+				</field>
+				<field name="color1" type="text" default="" label="PLG_MIWOVIDEOS_YOUTUBE_FIELD_COLOR1_LABEL" description="PLG_MIWOVIDEOS_YOUTUBE_FIELD_COLOR1_DESC"/>
+				<field name="color2" type="text" default="" label="PLG_MIWOVIDEOS_YOUTUBE_FIELD_COLOR2_LABEL" description="PLG_MIWOVIDEOS_YOUTUBE_FIELD_COLOR2_DESC"/>
+				<field name="controls" type="radio" class="btn-group" default="1" label="PLG_MIWOVIDEOS_YOUTUBE_FIELD_CONTROLS_LABEL" description="PLG_MIWOVIDEOS_YOUTUBE_FIELD_CONTROLS_DESC">
+					<option value="0">MHIDE</option>
+					<option value="1">MSHOW</option>
+				</field>                             
+				<field name="fs" type="radio" class="btn-group" default="1" label="PLG_MIWOVIDEOS_YOUTUBE_FIELD_FS_LABEL" description="PLG_MIWOVIDEOS_YOUTUBE_FIELD_FS_DESC">
+					<option value="0">MHIDE</option>
+					<option value="1">MSHOW</option>
+				</field>                                 
+				<field name="hd" type="radio" class="btn-group" default="0" label="PLG_MIWOVIDEOS_YOUTUBE_FIELD_HD_LABEL" description="PLG_MIWOVIDEOS_YOUTUBE_FIELD_HD_DESC">
+					<option value="0">MNO</option>
+					<option value="1">MYES</option>
+				</field>                                 
+				<field name="iv_load_policy" type="radio" class="btn-group" default="1" label="PLG_MIWOVIDEOS_YOUTUBE_FIELD_IVLOADPOLICY_LABEL" description="PLG_MIWOVIDEOS_YOUTUBE_FIELD_IVLOADPOLICY_DESC">
+					<option value="3">MHIDE</option>
+					<option value="1">MSHOW</option>
+				</field> 
+				<field name="modestbranding" type="radio" class="btn-group" default="1" label="PLG_MIWOVIDEOS_YOUTUBE_FIELD_MODESTBRANDING_LABEL" description="PLG_MIWOVIDEOS_YOUTUBE_FIELD_MODESTBRANDING_DESC">
+					<option value="0">MNO</option>
+					<option value="1">MYES</option>
+				</field> 
+				<field name="rel" type="radio" class="btn-group" default="0" label="PLG_MIWOVIDEOS_YOUTUBE_FIELD_RELATED_LABEL" description="PLG_MIWOVIDEOS_YOUTUBE_FIELD_RELATED_DESC">
+					<option value="0">MHIDE</option>
+					<option value="1">MSHOW</option>
+				</field>
+				<field name="theme" type="radio" class="btn-group" default="dark" label="PLG_MIWOVIDEOS_YOUTUBE_FIELD_THEME_LABEL" description="PLG_MIWOVIDEOS_YOUTUBE_FIELD_THEME_DESC">
+					<option value="dark">PLG_MIWOVIDEOS_YOUTUBE_OPTION_DARK</option>
+					<option value="light">PLG_MIWOVIDEOS_YOUTUBE_OPTION_LIGHT</option>
+				</field>                                
+                <field name="https" type="list" default="0" description="PLG_MIWOVIDEOS_YOUTUBE_FIELD_HTTPS_DESC" label="PLG_MIWOVIDEOS_YOUTUBE_FIELD_HTTPS_LABEL">
+                    <option value="1">MYES</option>
+                    <option value="0">MNO</option>
+				</field>  
+			</fieldset>
+			<fieldset name="advanced">
+                <field name="play_local" type="list" default="1" label="PLG_MIWOVIDEOS_YOUTUBE_FIELD_PLAYLOCAL_LABEL" description="PLG_MIWOVIDEOS_YOUTUBE_FIELD_PLAYLOCAL_DESC">
+					<option value="1">MYES</option>
+					<option value="0">MNO</option>
+				</field>
+			</fieldset>                        
+		</fields>
+	</config>
+</extension>

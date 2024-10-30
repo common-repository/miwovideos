@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="2.5.0" type="plugin" group="miwovideos" method="upgrade">
+	<name>MiwoVideos - VideoJS Player</name>
+    <author>Miwisoft LLC</author>
+    <creationDate>February 2014</creationDate>
+    <authorEmail>info@miwisoft.com</authorEmail>
+    <authorUrl>http://miwisoft.com</authorUrl>
+    <copyright>2009-2016 Miwisoft LLC</copyright>
+    <license>GNU/GPL, http://www.gnu.org/licenses/gpl-2.0.html</license>
+	<version>1.0.0</version>
+	<description>PLG_MIWOVIDEOS_VIDEOJS_XML_DESCRIPTION</description>
+
+	<files>
+		<filename plugin="videojs">videojs.php</filename>
+		<filename>index.html</filename>
+		<folder>video-js</folder>
+	</files>
+
+	<languages folder="language">
+		<language tag="en-GB">en-GB/en-GB.plg_miwovideos_videojs.ini</language>
+		<language tag="en-GB">en-GB/en-GB.plg_miwovideos_videojs.sys.ini</language>
+	</languages>
+
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+				<field name="width" type="text" default="1200" label="PLG_MIWOVIDEOS_VIDEOJS_LABEL_WIDTH" description="PLG_MIWOVIDEOS_VIDEOJS_DESC_WIDTH" size="3"/>
+				<field name="height" type="text" default="677" label="PLG_MIWOVIDEOS_VIDEOJS_LABEL_HEIGHT" description="PLG_MIWOVIDEOS_VIDEOJS_DESC_HEIGHT" size="3"/>
+				<field name="controls" type="radio" class="btn-group" default="1" label="PLG_MIWOVIDEOS_VIDEOJS_LABEL_CONTROLS" description="PLG_MIWOVIDEOS_VIDEOJS_DESC_CONTROLS">
+					<option value="0">MNO</option>
+					<option value="1">MYES</option>
+				</field>
+				<field name="autoplay" type="list" default="global" label="PLG_MIWOVIDEOS_VIDEOJS_LABEL_AUTOPLAY" description="PLG_MIWOVIDEOS_VIDEOJS_DESC_AUTOPLAY">
+					<option value="global">PLG_MIWOVIDEOS_VIDEOJS_OPTION_GLOBAL</option>
+                    <option value="1">MYES</option>
+                    <option value="0">MNO</option>
+				</field>
+				<field name="preload" type="list" default="auto" label="PLG_MIWOVIDEOS_VIDEOJS_LABEL_PRELOAD" description="PLG_MIWOVIDEOS_VIDEOJS_DESC_PRELOAD">
+					<option value="auto">auto</option>
+					<option value="metadata">metadata</option>
+					<option value="none">MNO</option>
+				</field>
+				<field name="loop" type="radio" class="btn-group" default="0" label="PLG_MIWOVIDEOS_VIDEOJS_LABEL_LOOP" description="PLG_MIWOVIDEOS_VIDEOJS_DESC_LOOP">
+					<option value="0">MNO</option>
+					<option value="1">MYES</option>
+				</field>
+				<field name="loop_button" type="radio" class="btn-group" default="1" label="PLG_MIWOVIDEOS_VIDEOJS_LABEL_LOOP_BUTTON" description="PLG_MIWOVIDEOS_VIDEOJS_DESC_LOOP_BUTTON">
+					<option value="0">MNO</option>
+					<option value="1">MYES</option>
+				</field>
+				<field name="poster_visibility" type="radio" class="btn-group" default="1" label="PLG_MIWOVIDEOS_VIDEOJS_LABEL_POSTER_VISIBILITY" description="PLG_MIWOVIDEOS_VIDEOJS_DESC_POSTER_VISIBILITY">
+					<option value="0">MNO</option>
+					<option value="1">MYES</option>
+				</field>
+				<field name="show_related_carousel" type="radio" class="btn-group" default="0" label="PLG_MIWOVIDEOS_VIDEOJS_SHOW_RELATED_CAROUSEL" description="">
+					<option value="1">MYES</option>
+					<option value="0">MNO</option>
+				</field>
+				<field name="total_related_videos" type="text" default="9" label="PLG_MIWOVIDEOS_VIDEOJS_TOTAL_RELATED_VIDEOS" description=""></field>
+			</fieldset>
+			<fieldset name="ads" label="PLG_MIWOVIDEOS_VIDEOJS_FIELD_GROUP_ADS_LABEL">
+				<field name="video_ads_client" type="list" default="0" label="PLG_MIWOVIDEOS_VIDEOJS_VIDEOADS_SERVICE" description="PLG_MIWOVIDEOS_VIDEOJS_VIDEOADS_SERVICE_DESC">
+					<option value="0">MNO</option>
+					<option value="vast">PLG_MIWOVIDEOS_VIDEOJS_VIDEOADS_SERVICE_VAST</option>
+					<option value="google_ima">PLG_MIWOVIDEOS_VIDEOJS_VIDEOADS_SERVICE_GOOGLEIMA</option>
+				</field>
+				<field name="ads_tag_url" type="text" default="" label="PLG_MIWOVIDEOS_VIDEOJS_TAG_URL" description=""/>
+				<field name="seconds_to_skip" type="text" default="5" label="PLG_MIWOVIDEOS_VIDEOJS_SECONDS_TO_SKIP" description="PLG_MIWOVIDEOS_VIDEOJS_SECONDS_TO_SKIP_DESC"/>
+			</fieldset>
+		</fields>
+	</config>
+</extension>

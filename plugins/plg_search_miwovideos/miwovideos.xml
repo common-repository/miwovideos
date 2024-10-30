@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="2.5" type="plugin" group="search" method="upgrade">
+	<name>Search - MiwoVideos</name>
+    <author>Miwisoft LLC</author>
+    <creationDate>February 2014</creationDate>
+    <authorEmail>info@miwisoft.com</authorEmail>
+    <authorUrl>http://miwisoft.com</authorUrl>
+    <copyright>2009-2016 Miwisoft LLC</copyright>
+    <license>GNU/GPL, http://www.gnu.org/licenses/gpl-2.0.html</license>
+	<version>1.0.0</version>
+	<description>Enables searching in Videos.</description>
+	
+	<files>
+		<filename plugin="miwovideos">miwovideos.php</filename>
+	</files>
+	
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+				<field name="search_limit" type="text" size="5" default="50" label="Search Limit" description="Number of Search items to return"/>
+			</fieldset>
+		</fields>
+	</config>	
+</extension>

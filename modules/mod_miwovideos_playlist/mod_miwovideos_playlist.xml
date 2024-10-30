@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="2.5" type="module" client="site" method="upgrade">
+	<name>MiwoVideos - Playlist</name>
+    <author>Miwisoft LLC</author>
+    <creationDate>February 2014</creationDate>
+    <authorEmail>info@miwisoft.com</authorEmail>
+    <authorUrl>http://miwisoft.com</authorUrl>
+    <copyright>2009-2016 Miwisoft LLC</copyright>
+    <license>GNU/GPL, http://www.gnu.org/licenses/gpl-2.0.html</license>
+    <version>1.0.0</version>
+	<description>This module is used to the list of playlist.</description>
+	
+	<files>
+		<filename module="mod_miwovideos_playlist">mod_miwovideos_playlist.php</filename>
+		<filename>index.html</filename>
+		<folder>tmpl</folder>
+	</files>
+	
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+                <field name="filterby" defaut="1" type="radio" class="btn-group" label="Show Subcategories ?">
+                    <option value="1">Ordering</option>
+                    <option value="0">Date</option>
+                </field>
+				<field name="moduleclass_sfx" type="text" label="Module Class Suffix" description="PARAMMODULECLASSSUFFIX" />
+				<field name="number_videos" type="text" default="5" label="Number of Videos" description="Number of Videos to be shown." />
+				<field name="item_id" type="text" default="" label="ItemID" description="Menu ItemID" />				
+			</fieldset>
+		</fields>		
+	</config>
+</extension>

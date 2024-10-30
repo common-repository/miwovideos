@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<access component="com_miwovideos">
+	<section name="component">
+		<action name="core.admin" title="MACTION_ADMIN" description="MACTION_ADMIN_COMPONENT_DESC" />
+		<action name="core.manage" title="MACTION_MANAGE" description="MACTION_MANAGE_COMPONENT_DESC" />
+		<action name="core.create" title="MACTION_CREATE" description="MACTION_CREATE_COMPONENT_DESC" />
+		<action name="core.delete" title="MACTION_DELETE" description="MACTION_DELETE_COMPONENT_DESC" />
+		<action name="core.edit" title="MACTION_EDIT" description="MACTION_EDIT_COMPONENT_DESC" />
+		<action name="core.edit.state" title="MACTION_EDITSTATE" description="MACTION_EDITSTATE_COMPONENT_DESC" />
+		<action name="core.edit.own" title="MACTION_EDITOWN" description="MACTION_EDITOWN_COMPONENT_DESC" />
+		<action name="miwovideos.autopublish" title="Auto Publish Videos" description="Allows to automatically publish new videos added from users." />
+	</section>	
+</access>

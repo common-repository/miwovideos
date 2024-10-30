@@ -1,0 +1,182 @@
+
+
+/* Controls */
+.form-horizontal .control-group:after {
+    clear: none !important;
+}
+.form-horizontal .control-group:before, .form-horizontal .control-group:after {
+    content: normal !important;
+}
+
+.form-horizontal .controls {
+    margin-left: 200px !important;
+}
+
+.form-horizontal .control-label {
+    /*margin-left: 5px !important;*/
+}
+
+/* Divs */
+.fltlft {
+    float: left;
+}
+
+.fltrt {
+    float: right;
+}
+
+fieldset.adminform {
+    margin: 0px 10px;
+}
+
+fieldset li {
+    list-style: none outside none;
+    margin: 0;
+    padding: 5px;
+}
+
+fieldset label,
+fieldset span.label {
+    float: left;
+    clear: left;
+    display:block;
+    margin: 5px 0;
+}
+
+fieldset.adminform label, fieldset.adminform span.label {
+    min-width: 135px;
+    padding: 0 5px 0 0;
+}
+
+/* Tabs */
+dl.tabs {
+    margin-bottom: 18px;
+    border-bottom: 1px solid #dddddd;
+    display: table;
+    line-height: 0;
+    clear: both;
+}
+
+dl.tabs dt h3 {
+    font-size: 1em;
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+}
+
+dt.tabs {
+    float: left;
+    line-height: 18px;
+    margin-bottom: -1px;
+}
+
+dt.tabs a {
+    display: block;
+    padding: 8px 12px;
+    margin-right: 2px;
+    line-height: 18px;
+    border: 1px solid transparent;
+    border-radius: 4px 4px 0 0;
+}
+
+dt.tabs a:hover {
+    background-color: #eeeeee;
+    text-decoration: none;
+    border-color: #eeeeee #eeeeee #dddddd;
+}
+
+dl.tabs dt.open a,
+dl.tabs dt.open a:hover {
+    background-color: #ffffff;
+    border-color: #dddddd #dddddd transparent;
+    border-style: solid;
+    border-width: 1px;
+    color: #555555;
+    cursor: default;
+}
+
+/* Sliders */
+div.panel {
+    /*background: none repeat scroll 0 0 white;*/
+    border: 1px solid #dddddd;
+    border-radius: 4px;
+    margin-bottom: 3px;
+}
+
+div.panel h3 {
+    font-size: 1em;
+    margin: 0px;
+}
+
+div.panel h3 a {
+    display: block;
+    padding: 5px 0px 5px 10px;
+}
+
+/* Icons */
+.miwovideos_cpanel, #miwovideos_cpanel { clear:both; margin:-1px 0 8px; padding:8px 0; position:relative; z-index:0; min-height: 95px; }
+.miwovideos_cpanel, #miwovideos_cpanel div.icon-wrapper { float:left; display: block !important; width: auto !important; height :auto!important; line-height:12px !important; background-image: none !important; }
+
+.miwovideos_cpanel div.icon,
+#miwovideos_cpanel div.icon {
+    float: left;
+    margin: 0px 15px 0px 0px;
+    text-align: center;
+}
+
+.miwovideos_cpanel div.icon a,
+#miwovideos_cpanel div.icon a {
+    background-color: #FFFFFF;
+    background-position: -30px center;
+    border: 1px solid #CCCCCC;
+    border-radius: 5px 5px 5px 5px;
+    color: #565656;
+    display: block;
+    float: left;
+    height: 97px;
+    text-decoration: none;
+    transition-duration: 0.8s;
+    transition-property: background-position, -moz-border-radius-bottomleft, -moz-box-shadow;
+    vertical-align: middle;
+    width: 108px;
+}
+
+.miwovideos_cpanel div.icon a:hover,
+#miwovideos_cpanel div.icon a:hover,
+.miwovideos_cpanel div.icon a:focus,
+#miwovideos_cpanel div.icon a:focus,
+.miwovideos_cpanel div.icon a:active,
+#miwovideos_cpanel div.icon a:active {
+    border-bottom-left-radius: 50% 20px;
+    box-shadow: -5px 10px 15px rgba(0, 0, 0, 0.25);
+}
+
+.miwovideos_cpanel img,
+#miwovideos_cpanel img {
+    margin: 0 auto;
+    padding: 10px 0;
+}
+
+.miwovideos_cpanel span,
+#miwovideos_cpanel span {
+    display: block;
+    text-align: center;
+}
+
+/* Date selector */
+.input-append {
+    display: inline;
+}
+
+img {
+	max-width:none !important;
+}
+
+body.com_miwovideos .page-title {background:url(../images/toolbar3.png) no-repeat 0 50%;padding-left:210px;}
+@media (max-width: 767px) { body.com_miwovideos .page-title {background:url(../images/toolbar3.png) no-repeat center center; padding-left:0; text-indent: -800px} }
+
+
+
+#miwovideosright div.panel div.pane-slider .chzn-drop{
+	position : static;
+}

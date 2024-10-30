@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="2.5" type="module" client="site" method="upgrade">
+	<name>MiwoVideos - Categories</name>
+    <author>Miwisoft LLC</author>
+    <creationDate>February 2014</creationDate>
+    <authorEmail>info@miwisoft.com</authorEmail>
+    <authorUrl>http://miwisoft.com</authorUrl>
+    <copyright>2009-2016 Miwisoft LLC</copyright>
+    <license>GNU/GPL, http://www.gnu.org/licenses/gpl-2.0.html</license>
+    <version>1.0.0</version>
+	<description>This module is used to the list of categories.</description>
+	
+	<files>
+		<filename module="mod_miwovideos_categories">mod_miwovideos_categories.php</filename>
+		<filename>index.html</filename>
+		<folder>tmpl</folder>
+	</files>
+	
+	<config>
+		<fields name="params">
+			<fieldset name="basic">				
+				<field name="show_subcategories" default="0" type="radio" class="btn-group" label="Show Subcategories ?">
+                    <option value="1">MYES</option>
+                    <option value="0">MNO</option>
+                </field>
+                <field name="show_thumb" default="1" type="radio" class="btn-group" label="Show Thumbnail">
+                    <option value="1">MYES</option>
+                    <option value="0">MNO</option>
+                </field>
+				<field name="moduleclass_sfx" type="text" label="Module Class Suffix" description="PARAMMODULECLASSSUFFIX" />
+				<field name="number_categories" type="text" default="5" label="Number of Categories" description="Number of Categories to be shown." />
+                <field name="thumb_width" type="text" default="130" label="Thumbnail Width(px)" description="Thumbnail Width(px)" />
+                <field name="thumb_height" type="text" default="100" label="Thumbnail Height(px)" description="Thumbnail Height(px)" />
+			</fieldset>
+		</fields>		
+	</config>
+</extension>

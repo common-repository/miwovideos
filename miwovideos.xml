@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="component" version="2.5" method="upgrade">
+	<name>COM_MIWOVIDEOS</name>
+    <author>Miwisoft</author>
+    <creationDate>May 2016</creationDate>
+    <authorEmail>info@miwisoft.com</authorEmail>
+    <authorUrl>http://miwisoft.com</authorUrl>
+    <copyright>2009-2016 Miwisoft</copyright>
+    <license>GNU/GPL, http://www.gnu.org/licenses/gpl-2.0.html</license>
+	<version>1.3.0</version>
+    <description>MiwoVideos allows you to turn your site into a professional looking video-sharing website with features similar to YouTube.</description>
+    
+	<media destination="com_miwovideos" folder="media">
+		<folder>images</folder>	
+		<filename>index.html</filename>	
+	</media>
+	
+	<languages folder="languages/site">
+		<language tag="en-GB">en-GB/en-GB.com_miwovideos.ini</language>
+	</languages>
+	
+	<files folder="site"> 
+		<filename>router.php</filename>
+		<filename>index.html</filename>
+		<filename>miwovideos.php</filename>
+		<folder>assets</folder>
+		<folder>controllers</folder>
+		<folder>models</folder>
+		<folder>views</folder>
+	</files>
+	
+	<administration>
+		<menu img="components/com_miwovideos/assets/images/icon-16-miwovideos.png">COM_MIWOVIDEOS</menu>
+		<submenu>
+			<menu link="option=com_miwovideos" img="components/com_miwovideos/assets/images/icon-16-miwovideos.png">COM_MIWOVIDEOS_PANEL</menu>
+			<menu link="option=com_miwovideos&amp;view=fields" img="components/com_miwovideos/assets/images/icon-16-miwovideos-fields.png">COM_MIWOVIDEOS_FIELDS</menu>
+			<menu link="option=com_miwovideos&amp;view=categories" img="components/com_miwovideos/assets/images/icon-16-miwovideos-categories.png">COM_MIWOVIDEOS_CATEGORIES</menu>
+            <menu link="option=com_miwovideos&amp;view=channels" img="components/com_miwovideos/assets/images/icon-16-miwovideos-channels.png">COM_MIWOVIDEOS_CHANNELS</menu>
+			<menu link="option=com_miwovideos&amp;view=playlists" img="components/com_miwovideos/assets/images/icon-16-miwovideos-playlists.png">COM_MIWOVIDEOS_PLAYLISTS</menu>
+			<menu link="option=com_miwovideos&amp;view=videos" img="components/com_miwovideos/assets/images/icon-16-miwovideos-videos.png">COM_MIWOVIDEOS_VIDEOS</menu>	  		
+			<menu link="option=com_miwovideos&amp;view=reports" img="components/com_miwovideos/assets/images/icon-16-miwovideos-reports.png">COM_MIWOVIDEOS_REPORTS</menu>	  		
+			<menu link="option=com_miwovideos&amp;view=files" img="components/com_miwovideos/assets/images/icon-16-miwovideos-files.png">COM_MIWOVIDEOS_FILES</menu>	  		
+			<menu link="option=com_miwovideos&amp;view=processes" img="components/com_miwovideos/assets/images/icon-16-miwovideos-processes.png">COM_MIWOVIDEOS_PROCESSES</menu>	  		
+			<menu link="option=com_miwovideos&amp;view=subscriptions" img="components/com_miwovideos/assets/images/icon-16-miwovideos-subscriptions.png">COM_MIWOVIDEOS_SUBSCRIPTIONS</menu>	  		
+			<menu link="option=com_miwovideos&amp;view=upgrade" img="components/com_miwovideos/assets/images/icon-16-miwovideos-upgrade.png">COM_MIWOVIDEOS_UPGRADE</menu>  			
+			<menu link="option=com_miwovideos&amp;view=support&amp;task=support" img="components/com_miwovideos/assets/images/icon-16-miwovideos-support.png">COM_MIWOVIDEOS_SUPPORT</menu>
+		</submenu> 
+		
+		<languages folder="languages/admin">     
+			<language tag="en-GB">en-GB/en-GB.com_miwovideos.ini</language>
+			<language tag="en-GB">en-GB/en-GB.com_miwovideos.sys.ini</language> 
+		</languages>
+		
+		<files folder="admin">
+			<filename>ubr_upload.pl</filename>
+			<filename>access.xml</filename>
+			<filename>config.xml</filename>
+			<filename>index.html</filename>
+			<filename>install.sql</filename>
+			<filename>miwovideos.php</filename>
+			<filename>toolbar.php</filename>  
+			<folder>assets</folder>
+			<folder>controllers</folder>
+			<folder>library</folder>	
+			<folder>models</folder>
+			<folder>tables</folder>
+			<folder>views</folder>
+		</files>    
+	</administration>
+	
+	<install>
+		<sql>
+			<file charset="utf8" driver="mysql">install.sql</file>
+		</sql>
+	</install>
+	
+	<scriptfile>script.php</scriptfile>
+</extension>

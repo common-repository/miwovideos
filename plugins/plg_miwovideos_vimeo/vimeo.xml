@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="2.5" type="plugin" group="miwovideos" method="upgrade">
+	<name>MiwoVideos - Remote Vimeo</name>
+    <author>Miwisoft LLC</author>
+    <creationDate>February 2014</creationDate>
+    <authorEmail>info@miwisoft.com</authorEmail>
+    <authorUrl>http://miwisoft.com</authorUrl>
+    <copyright>2009-2016 Miwisoft LLC</copyright>
+    <license>GNU/GPL, http://www.gnu.org/licenses/gpl-2.0.html</license>
+	<version>1.0.0</version>
+	<description>Enables integration of MiwoVideos with Vimeo.com</description>
+	
+	<files>
+		<filename plugin="vimeo">vimeo.php</filename>
+		<filename>index.html</filename>
+	</files>
+	
+    <config>
+        <fields name="params">
+            <fieldset name="basic">
+                <field name="autoplay" type="list" default="global" label="Autoplay ?" description="Start video automatically when the page loads ?">
+                    <option value="global">OPTION_GLOBAL</option>
+                    <option value="1">MYES</option>
+                    <option value="0">MNO</option>
+                </field>
+                <field name="width" type="text" default="500" label="Width" />
+                <field name="height" type="text" default="500" label="Height" />
+            </fieldset>
+        </fields>
+    </config>
+</extension>

@@ -1,0 +1,121 @@
+/* MiwoEvents */
+table.adminlist td, table.adminlist th {
+    vertical-align: middle;
+}
+
+table.adminlist tbody tr td {
+    vertical-align: middle;
+}
+
+table.adminlist thead th {
+    vertical-align: middle !important;
+}
+
+/** general **/
+table.adminlist {
+	border-spacing: 1px;
+}
+
+table.admintable span.hasTip {
+    padding-right: 18px;
+    background: url(../images/icon-14-tooltip.png) no-repeat 100% 55%;
+}
+
+
+.pane-sliders {
+    margin: 8px 0 0 !important;
+}
+
+table.admintable td.key2 {
+    background-color:#F6F6F6;
+    border-bottom:1px solid #E9E9E9;
+    border-right:1px solid #E9E9E9;
+    color:#666666;
+    font-weight:bold;
+    text-align:left;
+    padding-left: 5px;
+    vertical-align: middle;
+    height: 22px;
+    width:140px;
+}
+
+table.admintable td.value2 {
+    padding-left: 7px;
+}
+
+table.admintable td label {
+	clear: none;
+	min-width: 40px;
+	margin : 3px 2px;
+}
+
+/*form#adminForm fieldset.adminform {
+	background-color: white;
+}*/
+
+table.admintable {
+	background-color: white;
+    width: 100%;
+}
+
+div.current fieldset.miwoevents_recurring_setting input, 
+div.current fieldset.miwoevents_recurring_setting img {
+	float: none ;
+}
+
+.img_preview {
+	max-width: 65px ;
+	max-height: 65px;
+	float: left ;
+	margin-left: 20px ;
+	vertical-align: top;  
+}
+
+table.admintable td label {
+	clear: none ;
+	min-width: 40px;
+	margin : 3px 2px ;
+	display: inline-block; 
+}
+
+.form-horizontal label.control-label {
+	text-align: left;
+}
+
+.form-horizontal div.controls label {	
+	clear: none ;
+	min-width: 40px;
+	display: inline-block; 
+}
+.clearfloat {
+	float: none ;
+}
+
+#recurring_end_date_img {
+	float: right ;
+}
+
+#recurring_end_date {
+	float: none ;
+}
+
+table.adminlist td.text_center, table.adminlist th.text_center {
+	text-align: center ;
+}
+
+table.adminlist td.text_left, table.adminlist th.text_left {
+	text-align: left ;
+}
+
+table.adminlist td.text_right, table.adminlist th.text_right {
+	text-align: right ;
+}
+
+.img_preview_list {
+    width: 75px;
+    height: auto;
+    vertical-align: middle;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}

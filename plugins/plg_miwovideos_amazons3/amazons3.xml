@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="2.5" type="plugin" group="miwovideos" method="upgrade">
+    <name>MiwoVideos - CDN AmazonS3</name>
+    <author>Miwisoft LLC</author>
+    <creationDate>February 2014</creationDate>
+    <authorEmail>info@miwisoft.com</authorEmail>
+    <authorUrl>http://miwisoft.com</authorUrl>
+    <copyright>2009-2016 Miwisoft LLC</copyright>
+    <license>GNU/GPL, http://www.gnu.org/licenses/gpl-2.0.html</license>
+    <version>1.0.0</version>
+    <description>PLG_MIWOVIDEOS_AMAZONS3_XML_DESCRIPTION</description>
+    <files>
+        <filename plugin="amazons3">amazons3.php</filename>
+        <filename>index.html</filename>
+        <folder>assets</folder>
+    </files>
+    <languages>
+        <language tag="en-GB">language/en-GB.plg_miwovideos_amazons3.ini</language>
+        <language tag="en-GB">language/en-GB.plg_miwovideos_amazons3.sys.ini</language>
+    </languages>
+    <config>
+        <fields name="params">
+            <fieldset name="basic">
+                <field name="awsAccessKey" type="text" description="PLG_MIWOVIDEOS_AMAZONS3_FIELD_ACCESS_KEY_DESC" label="PLG_MIWOVIDEOS_AMAZONS3_FIELD_ACCESS_KEY_LABEL" size="20" default=""/>
+                <field name="awsSecretKey" type="password" description="PLG_MIWOVIDEOS_AMAZONS3_FIELD_SECRET_KEY_DESC" label="PLG_MIWOVIDEOS_AMAZONS3_FIELD_SECRET_KEY_LABEL" size="20" default=""/>
+                <field name="awsBucket" type="text" description="PLG_MIWOVIDEOS_AMAZONS3_FIELD_BUCKET_DESC" label="PLG_MIWOVIDEOS_AMAZONS3_FIELD_BUCKET_LABEL" size="20" default=""/>
+                <field name="awsRegion" type="list" description="PLG_MIWOVIDEOS_AMAZONS3_FIELD_REGION_DESC" label="PLG_MIWOVIDEOS_AMAZONS3_FIELD_REGION_LABEL" default="us-east-1">
+                    <option value="-us-east-1">PLG_MIWOVIDEOS_AMAZONS3_OPTION_USEAST1</option>
+                    <option value="-us-west-1">PLG_MIWOVIDEOS_AMAZONS3_OPTION_USWEST1</option>
+                    <option value="-us-west-2">PLG_MIWOVIDEOS_AMAZONS3_OPTION_USWEST2</option>
+                    <option value="-eu-west-1">PLG_MIWOVIDEOS_AMAZONS3_OPTION_EUWEST1</option>
+                    <option value="-ap-southeast-1">PLG_MIWOVIDEOS_AMAZONS3_OPTION_APSE1</option>
+                    <option value="-ap-southeast-2">PLG_MIWOVIDEOS_AMAZONS3_OPTION_APSE2</option>
+                    <option value="-ap-northeast-1">PLG_MIWOVIDEOS_AMAZONS3_OPTION_APNE1</option>
+                    <option value="-sa-east-1">PLG_MIWOVIDEOS_AMAZONS3_OPTION_SAE1</option>
+                    <option value="">PLG_MIWOVIDEOS_AMAZONS3_OPTION_DEFAULT</option>
+                </field>
+                <field name="awsRrs" type="list" description="PLG_MIWOVIDEOS_AMAZONS3_FIELD_RRS_DESC" label="PLG_MIWOVIDEOS_AMAZONS3_FIELD_RRS_LABEL" default="0">
+                    <option value="1">MYES</option>
+                    <option value="0">MNO</option>
+                </field>
+            </fieldset>
+        </fields>
+    </config>
+</extension>

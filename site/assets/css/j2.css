@@ -1,0 +1,36 @@
+/* MiwoVideos */
+
+/* --- Tabs --- */
+dl.tabs#right {
+    float: right !important;
+    margin: 0px 0 -1px 0;
+    z-index: 50;
+}
+
+dl.tabs#left {
+    float: none !important;
+    margin: 10px 0 -1px 0;
+    z-index: 50;
+	display: inline-block;
+	margin-bottom: -5px;
+}
+
+dl.tabs dt {
+    float: left;
+    padding: 4px 10px;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+    margin-left: 3px;
+    background: #f0f0f0;
+    color: #666;
+}
+
+dl.tabs dt.open {
+    background: #F9F9F9;
+    border-bottom: 1px solid #F9F9F9;
+    z-index: 100;
+    color: #000;
+}.miwovideos_box a {
+    text-decoration: none;
+}

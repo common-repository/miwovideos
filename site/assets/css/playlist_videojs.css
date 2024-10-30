@@ -1,0 +1,196 @@
+.miwovideos_video_player {
+    background : #000000;
+}
+
+#miwovideos_video_player_playlist {
+    height     : 100%;
+    background : #000000;
+    overflow   : hidden;
+}
+
+#miwovideos_video_player_playlist ul {
+    padding         : 0;
+    margin          : 0;
+    list-style-type : none;
+    background      : #000000;
+}
+
+#miwovideos_video_player_playlist {
+    width    : 37%;
+    position : absolute;
+    z-index  : 998;
+    top      : 0px;
+    right    : 0px;
+
+}
+
+#miwovideos_playlist li {
+    display          : block;
+    background-color : #181818;
+    padding          : 5px 5px;
+    height           : 40px;
+    /*width: 250px;*/
+    font-size        : 10px;
+    border-bottom    : 1px outset #FFFFFF;
+    letter-spacing   : -1px;
+    cursor           : pointer;
+}
+
+#miwovideos_playlist li:hover {
+    background-color : #6E6E6E;
+}
+
+#miwovideos_playlist li a {
+    display         : block;
+    text-decoration : none;
+    color           : white;
+    zoom            : 1;
+}
+
+#miwovideos_playlist li span {
+    float          : left;
+    font-size      : 10px;
+    margin-left    : 10px;
+    max-height     : 40px;
+    max-width      : 65%;
+    overflow       : hidden;
+    width          : 100%;
+    letter-spacing : 0px;
+}
+
+#miwovideos_playlist li div {
+    float       : left;
+    margin-left : 5px;
+    margin-top  : 10px;
+    color       : #B2B2B2;
+    width       : 15px;
+    font-size   : 11px;
+}
+
+.video_thumb {
+    float       : left;
+    height      : 30px;
+    margin-left : 5px;
+    margin-top  : 5px;
+    width       : 40px;
+}
+
+.miwovideos-control-bar {
+    background-color : rgba(5, 14, 21, 1);
+    height           : 30px;
+    position         : absolute;
+    right            : 0;
+    bottom           : 0;
+    width            : 37%;
+    z-index          : 998;
+}
+
+.miwovideos-control-bar a {
+    float        : right;
+    margin-right : 4px;
+    margin-top   : 8px;
+    font-size    : 11px;
+}
+
+.miwovideos-control-bar span {
+    float       : left;
+    margin-left : 10px;
+    margin-top  : 5px;
+    font-size   : 10px;
+    color       : #AAA6A6;
+}
+
+.miwovideos_li_bottom {
+    height           : 20px !important;
+    background-color : black !important;
+    border-bottom    : none !important;
+}
+
+.miwovideos_backward {
+    width      : 16px;
+    height     : 16px;
+    background : transparent url('../images/left.png') center no-repeat;
+}
+
+.miwovideos_backward:hover {
+    width      : 16px;
+    height     : 16px;
+    background : transparent url('../images/left_2.png') center no-repeat;
+}
+
+.miwovideos_forward {
+    width      : 16px;
+    height     : 16px;
+    background : transparent url('../images/right.png') center no-repeat;
+}
+
+.miwovideos_forward:hover {
+    width      : 16px;
+    height     : 16px;
+    background : transparent url('../images/right_2.png') center no-repeat;
+}
+
+/*overrides*/
+
+/* Video Playlist page fix */
+
+.miwovideos_user_header {
+    /* Default Template */
+    margin-top : 0;
+}
+
+.miwovideos_video_headline {
+    /* Youtube Override */
+    margin-top : 0;
+}
+
+.miwovideos_video_player .videoWrapper .vjs-fullscreen .vjs-tech {
+    width : 100% !important;
+}
+
+.miwovideos_video_player .videoWrapper .vjs-fullscreen .vjs-control-bar {
+    width : 100% !important;
+}
+
+.vjs-control-bar {
+    bottom           : 0 !important;
+    background-color : rgba(7, 20, 30, 0.7) !important;
+}
+
+/* Video Playlist page fix */
+.miwovideos_playing {
+    background-color : #565656 !important;
+}
+
+.vjs-default-skin .vjs-control-bar {
+    width   : 64% !important;
+    display : inherit;
+}
+
+.video-js .vjs-tech {
+    height      : 85% !important;
+    width       : 61% !important;
+    margin-left : 8px;
+    margin-top  : 5px;
+}
+
+.vjs-poster {
+    height : 85% !important;
+    width  : 64% !important;
+}
+
+.vjs-default-skin.vjs-big-play-centered .vjs-big-play-button {
+    left : 33% !important;
+}
+
+.miwovideos_video_player {
+    position : relative;
+}
+
+.miwovideos_video_player {
+    max-width : 100% !important;
+}
+
+.vjs-loading-spinner {
+    left : 33% !important;
+}

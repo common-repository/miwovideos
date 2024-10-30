@@ -1,0 +1,74 @@
+/* MiwoVideos */
+
+/* --- Tabs --- */
+/* MiwoVideos */
+
+/* --- Tabs --- */
+dl.tabs {
+    margin-bottom: 18px;
+    border-bottom: 1px solid #dddddd;
+    display: table;
+    line-height: 0;
+    clear: both;
+}
+
+dl.tabs dt h3 {
+    font-size: 1em;
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+}
+
+dt.tabs {
+    float: left;
+    line-height: 18px;
+    margin-bottom: -1px;
+}
+
+dt.tabs a {
+    display: block;
+    padding: 8px 12px;
+    margin-right: 2px;
+    line-height: 18px;
+    border: 1px solid transparent;
+    border-radius: 4px 4px 0 0;
+}
+
+dt.tabs a:hover {
+    background-color: #eeeeee;
+    text-decoration: none;
+    border-color: #eeeeee #eeeeee #dddddd;
+}
+
+dl.tabs#right {
+    float: right !important;
+    margin: -30px 10px -1px 0;
+    z-index: 50;
+}
+
+dl.tabs#left {
+    float: none !important;
+    margin: 10px 0 -1px 0;
+    z-index: 50;
+	display: inline-block;
+	margin-bottom: -5px;
+}
+
+dl.tabs dt {
+    float: left !important;
+    padding: 0px !important;
+    border-left: 0px solid !important;
+    border-right: 0px solid !important;
+    border-top: 0px solid !important;
+    margin-left: 0px;
+    /*background: #fff !important;*/
+    color: #fff !important;
+}
+
+div.current dd.tabs {
+    border: 0px !important;
+}
+
+dl.tabs dt.open a, dl.tabs dt.open a:hover {
+    border-color: #DDDDDD #DDDDDD rgba(0, 0, 0, 0);
+}

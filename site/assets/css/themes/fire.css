@@ -1,0 +1,310 @@
+/***
+This css is borrowed from fire theme of calendar from http://www.thejoomlacalendar.com/themes-and-templates-for-jcal-pro.html
+***/
+/*Calendar view for css*/
+
+.regpro_calendar { 
+	background-color:#29363E;
+    color:#990000;
+	vertical-align:top;
+	font-size: 11px ;
+}
+.regpro_calendarMonthHeader{
+	background-color: #8C0000;	
+	text-align:center;
+	vertical-align:middle;
+	border-left: 1px solid #6B0001;
+	border-top: 1px solid #6B0001;
+}
+.regpro_calendar_table {
+
+}
+.regpro_calendarWeekDayHeader {
+	font-weight: bolder;
+	background: #690001 url(../images/fire/tile.gif) repeat-x center bottom;
+	text-align:center;
+	vertical-align:middle;
+	padding: 5px;
+	color: #fff;
+	border-left: 1px solid #6B0001;
+	border-right: 1px solid #8C0000;
+} 
+.regpro_calendarDay { 
+	background-color: #EFEFEF;
+	/*width:60px;
+	height:60px;
+	*/
+	text-align:left;
+	font-weight:bolder;
+	vertical-align:top;
+	font-size:12px;
+	font-style:normal;
+	border-left: 1px solid #FFFFFF;
+    border-top: 1px solid #FFFFFF;
+	padding: 5px;
+}
+.regpro_calenderday_highlight {
+	background-color: #DAD9CE;
+	text-align:left;
+	vertical-align:top;
+	font-weight:bolder;
+	font-size:12px;
+	/*width:60px;
+	height:60px;*/
+	padding: 5px;
+	border-left: 1px solid #FFFFFF;
+    border-top: 1px solid #FFFFFF;
+}
+
+.regpro_calendarDay .miwovideos_video_link, .regpro_calenderday_highlight .miwovideos_video_link {
+	background: #DEDEDE;
+	border-left: 1px #D0D4D4 solid;
+	border-top: 1px #D0D4D4 solid;
+	border-right: 1px #fff solid;
+	border-bottom: 1px #fff solid;
+    display: block;
+    font-size: 11px;
+    padding: 5px;
+	color: #990000;
+}
+
+.regpro_calenderday_highlight .miwovideos_video_link {
+	color: #000;
+}
+
+
+#extcalendar table.jcl_basetable {
+    border: 0 none;
+    border-collapse: collapse;
+    border-spacing: 0;
+    padding: 0;
+    width: 100%;
+}
+
+#extcalendar .today {
+    color: #000000;
+    font-size: 11px;
+    font-weight: bold;
+}
+
+#extcalendar .currentmonth, #extcalendar .currentday, #extcalendar .currentweek {
+    background-color: #8C0000;
+    border-top: 1px solid #6B0001;
+    color: #FFFFFF;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: normal;
+    padding: 3px 11px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+#extcalendar .previousmonth, #extcalendar .previousday, #extcalendar .previousweek,
+#extcalendar .nextmonth, #extcalendar .nextday, #extcalendar .nextweek {
+    background-color: #8C0000;
+    border-top: 1px solid #6B0001;
+    color: #FFFFFF;
+    font-size: 11px;
+    font-weight: bold;
+    padding: 3px 11px;
+    text-align: center;
+    text-decoration: none;
+}
+
+#extcalendar .previousmonth, #extcalendar .nextmonth, #extcalendar .previousweek, #extcalendar .nextweek, #extcalendar .previousday, #extcalendar .nextday {
+    height: 22px;
+    text-align: center;
+    vertical-align: middle;
+    width: 33%;
+}
+
+#extcalendar .currentmonth, #extcalendar .currentday, #extcalendar .currentweek {
+    height: 22px;
+    text-align: center;
+    vertical-align: middle;
+    width: 34%;
+}
+
+#extcalendar .tableb {
+    background-color: #F4F4F4;
+    border-left: 1px solid #FFFFFF;
+    color: black;
+    line-height: 16px;
+    padding: 6px 11px;
+}
+
+#extcalendar .tablec {
+    background-color: #F9F9F9;
+    border-top: 1px solid #FFFFFF;
+    color: #333333;
+    padding: 3px 11px;
+}
+
+#extcalendar .tableh2 {
+    background: #9E0000 url(../images/fire/tile.gif) repeat-x center bottom;
+    border-left: 1px solid #9E0000;
+    border-right: 1px solid #690001;
+    color: white;
+    font-size: 11px;
+    font-weight: bold;
+    margin: 0;
+    padding: 6px 12px;
+}
+
+#extcalendar .previousday a, #extcalendar .previousmonth a, #extcalendar .previousweek a {
+    background: url(../images/mini_arrowL.gif) no-repeat left center;
+    color: #FFFFFF;
+    padding-left: 8px;
+}
+
+#extcalendar .nextday a, #extcalendar .nextmonth a, #extcalendar .nextweek a {
+    background: url(../images/mini_arrowR.gif) no-repeat right center;
+    color: #FFFFFF;
+    padding-right: 8px;
+}
+
+#extcalendar .videodesc {
+    color: #606F79;
+    font-size: 11px;
+}
+
+#extcalendar .videotitle {
+    color: #606F79;
+    font-size: 11px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.wraptable_calendar {
+	width: 100%;
+	clear: both;
+}
+
+.topmenu_calendar {
+	overflow: hidden;
+}
+
+.topmenu_calendar .left_calendar {
+	float: left;
+	padding: 7px;
+}
+
+.topmenu_calendar ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	float: right;
+}
+
+.topmenu_calendar ul li {
+	float: left;
+	margin: 0 0 0 5px;
+	display: block;
+}
+
+.topmenu_calendar ul li a {
+	background: #9E0000 url(../images/fire/tile.gif) repeat-x center bottom;
+	display: block;
+	color: #fff;
+	padding: 7px 10px;
+}
+
+.topmenu_calendar ul li a.active {
+	background: #F4F4F4;
+	color: #29363E;
+	border-top: 1px solid #ccc;
+	border-left: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+}
+
+/* Mini Calendar */
+div.moduleS2 {
+    background: url(../images/fire/topright_2.png) no-repeat 100% 0;
+    height: 1%;
+    margin-bottom: 10px;
+}
+
+div.moduleS2 div {
+    background: url(../images/fire/topleft_2.png) no-repeat 0 0;
+}
+
+div.moduleS2 div div {
+    background: url(../images/fire/botright_2.png) no-repeat 100% 100%;
+}
+
+div.moduleS2 div div div {
+    background: url(../images/fire/botleft_2.png) no-repeat 0 100%;
+    padding: 12px 15px 15px;
+}
+
+div.moduleS2 div div div div {
+    background: none repeat scroll 0 0 transparent;
+    padding: 0;
+}
+
+div.moduleS2 h3, div.moduletableS2 h3 {
+    font-style: normal;
+    font-weight: normal;
+    height: auto;
+    line-height: 100%;
+    margin: 0 0 10px;
+    padding: 0 0 3px;
+    text-indent: 0;
+	border-bottom: 1px solid #BB1015;
+    color: #FFFFFF;
+    font-size: 16px;
+}
+
+.extcal_minical table.extcal_minical {
+    background-color: #990100;
+    padding: 5px;
+    width: 100%;
+}
+
+.mod_miwovideos_mincalendar_td_dayname .sunday {
+	color:#99AAAA;
+}
+
+.mod_miwovideos_mincalendar_td_dayname .saturday {
+	color:#99AAAA;
+}
+
+td.mod_miwovideos_mincalendar_today {
+	background-color:#680104;
+	padding:0 !important;
+}
+td.mod_miwovideos_mincalendar_not_today,td.mod_miwovideos_mincalendar_no_video a {
+	font-size: 11px;
+    font-style: normal;
+    font-weight: bold;
+    padding: 3px 2px;
+	color: #fff;
+}
+
+td.mod_miwovideos_mincalendar_video{
+	background-color:#680104;
+	padding:0 !important;
+}
+
+a.miwovideos_minical_link:hover{
+	color:yellow;
+	text-decoration:none;
+}
+
+a.miwovideos_minical_link SPAN.sunday {
+	color:#99AAAA;
+}
+
+a.miwovideos_minical_link SPAN.saturday {
+	color:#99AAAA;
+}
+
+td.mod_miwovideos_mincalendar_video a, td.mod_miwovideos_mincalendar_video a.miwovideos_minical_link span.sunday, td.mod_miwovideos_mincalendar_video a.miwovideos_minical_link SPAN.saturday {
+	color: #fff;
+}
+
+.extcal_minical .extcal_navbar {
+    background-repeat: repeat-x;
+    border-bottom: 1px solid #B4B4B6;
+}

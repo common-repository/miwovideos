@@ -1,0 +1,2243 @@
+/* MiwoVideos */
+
+.miwovideos_warning {
+    background            : #FFD1D1 url('../images/warning.png') 10px center no-repeat;
+    border                : 1px solid #F8ACAC;
+    -webkit-border-radius : 5px 5px 5px 5px;
+    -moz-border-radius    : 5px 5px 5px 5px;
+    -khtml-border-radius  : 5px 5px 5px 5px;
+    border-radius         : 5px 5px 5px 5px;
+    padding               : 10px 10px 10px 33px;
+    margin-bottom         : 15px;
+    color                 : #555555;
+}
+
+.miwovideos_access_box {
+    width         : 110px;
+    margin-bottom : 0;
+}
+
+.miwovideos_success {
+    background            : #EAF7D9 url('../images/success.png') 10px center no-repeat;
+    border                : 1px solid #BBDF8D;
+    -webkit-border-radius : 5px 5px 5px 5px;
+    -moz-border-radius    : 5px 5px 5px 5px;
+    -khtml-border-radius  : 5px 5px 5px 5px;
+    border-radius         : 5px 5px 5px 5px;
+    padding               : 10px 10px 10px 33px;
+    margin-bottom         : 15px;
+    color                 : #555555;
+}
+
+.miwovideos-meta-info {
+    font-size   : 11px;
+    line-height : 1.7em;
+}
+
+.miwovideos-meta-info .created_by {
+    display      : inline-block;
+    margin-right : 10px;
+}
+
+.miwovideos-meta-info .videos-view {
+    display      : inline-block;
+    margin-right : 10px;
+}
+
+.miwovideos-meta-info .date-created {
+    display : inline-block;
+    color   : #999999;
+}
+
+.miwovideos_channel_header {
+    padding : 20px 0px 10px 0px;
+}
+
+.miwovideos_channel_title {
+    display : inline-block;
+}
+
+.miwovideos_upload {
+    margin   : 10px;
+    position : relative;
+    bottom   : 5px;
+}
+
+.miwovideos_grid_flow {
+    background : url(../images/grid.ico);
+}
+
+.miwovideos_list_flow {
+    background : url(../images/list.ico);
+}
+
+.miwovideos_checkbox {
+    margin : 0 !important;
+}
+
+/* Channel Item */
+
+.miwovideos_searchbox {
+    float   : right !important;
+    margin  : 10px 0 -1px 0;
+    z-index : 50;
+    display : inline-block;
+}
+
+.miwovideos_subheader .miwovideos_searchbox {
+    float   : left !important;
+    margin  : 0 !important;
+    z-index : 50;
+    display : inline-block;
+}
+
+.miwovideos_filter_videos {
+    display : inline-block;
+}
+
+.miwovideos_description_stats {
+    text-align : right;
+    margin-top : 10px;
+}
+
+.miwovideos_description_stats .title {
+    display     : inline-block;
+    font-weight : bold;
+}
+
+.miwovideos_description_stats .content {
+    display : inline-block;
+}
+
+/* Channel Item */
+/* Channels Grid */
+.miwovideos_channels_grid {
+    min-height    : 212px;
+    margin-bottom : 20px;
+    border        : solid 1px #DBDEE1;
+}
+
+.miwovideos_channels_box_content {
+    padding : 18px
+}
+
+.miwovideos_channels_box_content_header {
+    display : inline-block;
+    width   : 66%;
+}
+
+.miwovideos_channels_box_content_40 {
+    float       : left;
+    width       : 40%;
+    line-height : 25px;
+}
+
+.miwovideos_channels_box_content_60 {
+    float       : left;
+    width       : 60%;
+    line-height : 25px;
+    margin      : 9px 18px;
+}
+
+.miwovideos_channels_box_content_img2 {
+    float  : left !important;
+    margin : 0px 20px 0 0;
+    width  : 212px;
+    height : 212px;
+}
+
+.miwovideos_preview_videos {
+    /*display: inline-block;*/
+}
+
+.miwovideos_preview_videos_title {
+    /*display: inline-block;*/
+    margin-bottom : 7px;
+    margin-top    : 10px;
+    font-weight   : bold;
+}
+
+.miwovideos_preview_videos .miwovideos_preview {
+    display : inline-block;
+}
+
+.miwovideos_preview_videos .miwovideos_preview .miwovideos_thumb_100 {
+    width        : 100px;
+    height       : 56px;
+    margin-right : 3px;
+}
+
+/* Channels Grid */
+
+/* Playlists Grid */
+
+.playlists-items-grid-box {
+    overflow      : hidden;
+    margin-bottom : 20px;
+    display       : inline-block;
+    margin-right  : 15px;
+    width         : 20%;
+}
+
+.playlists-items-grid-thumb {
+    width   : 190px;
+    height  : 107px;
+    display : block;
+}
+
+.playlists-items-grid-box .playlists-items-grid-box-content {
+    padding-top : 5px;
+}
+
+/* Playlists Grid */
+
+/* Playlists List */
+
+.playlists-items-list-box {
+    overflow      : hidden;
+    margin-bottom : 20px;
+}
+
+.playlists-items-list-thumb {
+    width        : 185px;
+    height       : 104px;
+    float        : left;
+    margin-right : 10px;
+}
+
+.playlists-items-list-box .playlists-items-list-box-content {
+    padding-top : 5px;
+    overflow    : hidden;
+}
+
+.playlists-list-item {
+    width        : 30%;
+    max-width    : 68%;
+    z-index      : 2;
+    overflow     : hidden;
+    position     : relative;
+    display      : inline-block;
+    margin-top   : 10px;
+    margin-right : 10px;
+}
+
+.playlists-items-list-box-content {
+    width          : 65%;
+    min-width      : 29%;
+    margin-top     : 10px;
+    overflow       : hidden;
+    display        : inline-block;
+    vertical-align : top;
+}
+
+.playlists-items {
+    margin-top  : 6px;
+    font-size   : 12px;
+    line-height : 1.5em;
+    white-space : nowrap;
+}
+
+.playlists-item {
+    border-bottom : 1px solid #E2E2E2;
+}
+
+.playlists-item .miwovideos-duration {
+    float     : right;
+    font-size : 11px;
+    color     : #999999;
+}
+
+/* Playlists List */
+
+/* Playlists */
+
+.date-created {
+    color : #999999;
+}
+
+.miwovideos_playlist_items {
+    max-height         : 195px;
+    overflow-y         : auto;
+    overflow-x         : hidden;
+    border             : 1px solid #CCCCCC;
+    padding            : 10px;
+    margin-bottom      : 10px;
+    background         : #EFEFEF;
+    -moz-box-shadow    : 0 1px 0 #FFFFFF, inset 0 1px 1px rgba(0, 0, 0, 0.2);
+    -ms-box-shadow     : 0 1px 0 #FFFFFF, inset 0 1px 1px rgba(0, 0, 0, 0.2);
+    -webkit-box-shadow : 0 1px 0 #FFFFFF, inset 0 1px 1px rgba(0, 0, 0, 0.2);
+    box-shadow         : 0 1px 0 #FFFFFF, inset 0 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+.miwovideos_playlist_item {
+    padding               : 5px;
+    cursor                : pointer;
+    -moz-border-radius    : 3px;
+    -webkit-border-radius : 3px;
+    border-radius         : 3px;
+    display               : inherit;
+}
+
+.miwovideos_playlist_item:hover {
+    background : #555555;
+    color      : #FFFFFF;
+}
+
+.miwovideos_playlist_item a {
+    color : inherit;
+}
+
+.miwovideos_playlist_item a:hover {
+    color           : inherit;
+    text-decoration : none;
+}
+
+.miwovideos_playlist_title {
+    width            : 55%;
+    font-weight      : bold;
+    line-height      : 1.4em;
+    display          : inline-block;
+    white-space      : nowrap;
+    word-wrap        : normal;
+    -o-text-overflow : ellipsis;
+    text-overflow    : ellipsis;
+}
+
+.miwovideos_playlist_access {
+    width   : 15%;
+    display : inline-block;
+}
+
+.miwovideos_playlist_created {
+    display : inline-block;
+}
+
+.miwovideos_playlist_actions {
+    display : inline-block;
+    float   : right;
+}
+
+.miwovideos_create_playlist {
+    width : 100%;
+}
+
+.miwovideos_playlist_name {
+    width : 58%;
+}
+
+/* Playlists */
+
+.miwovideos_playlist_subheader {
+    margin : 10px 0 10px 0;
+}
+
+.miwovideos_playlist_addto_filter {
+    display : inline-block;
+    float   : right;
+}
+
+/* Videos Grid */
+
+.videos-items-grid-box {
+    vertical-align : top;
+    overflow       : hidden;
+    margin-bottom  : 20px;
+    display        : inline-block;
+    margin-right   : 15px;
+    width          : 30%;
+}
+
+.videos-items-grid-thumb {
+    max-width : 100%;
+    position  : absolute;
+    top       : 0;
+    bottom    : 0;
+    left      : 0;
+    right     : 0;
+    width     : 100%;
+    z-index   : 2;
+    margin    : 0;
+    padding   : 0;
+}
+
+.videos-items-grid-box .videos-items-grid-box-content {
+    padding-top : 5px;
+}
+
+.videos-grid-item {
+    margin   : 10px 0;
+    width    : 100%;
+    z-index  : 2;
+    overflow : hidden;
+    position : relative;
+}
+
+/* Videos Grid */
+
+/* Videos List */
+
+.videos-items-list-box {
+    overflow      : hidden;
+    margin-bottom : 20px;
+}
+
+.videos-items-list-thumb {
+    width        : 185px;
+    height       : 104px;
+    float        : left;
+    margin-right : 10px;
+}
+
+.videos-items-list-box .videos-items-list-box-content {
+    width          : 65%;
+    min-width      : 22%;
+    margin-top     : 10px;
+    overflow       : hidden;
+    display        : inline-block;
+    vertical-align : top;
+}
+
+.videos-items {
+    margin-top  : 6px;
+    font-size   : 12px;
+    line-height : 1.5em;
+    white-space : nowrap;
+}
+
+.category .videos-list-item {
+    width        : 100%;
+    z-index      : 2;
+    overflow     : hidden;
+    position     : relative;
+    display      : inline-block;
+    margin-top   : 0px;
+    margin-right : 0px;
+}
+
+.videos-list-item {
+    width        : 30%;
+    max-width    : 75%;
+    z-index      : 2;
+    overflow     : hidden;
+    position     : relative;
+    display      : inline-block;
+    margin-top   : 10px;
+    margin-right : 10px;
+}
+
+.videos-description {
+    word-wrap : break-word;
+}
+
+/* Videos List */
+
+/* Thumbnails aspect */
+.videos-aspect43 {
+    padding-top : 75%;
+    background  : #000000;
+    z-index     : 1;
+}
+
+.videos-aspect169 {
+    padding-top : 58%;
+    background  : #000000;
+    z-index     : 1;
+}
+
+.videos-aspect11 {
+    padding-top : 100%;
+    background  : #000000;
+    z-index     : 1;
+}
+
+.videos-aspect1115 {
+    padding-top : 136%;
+    background  : #000000;
+    z-index     : 1;
+}
+
+/* Thumbnails aspect */
+
+/* Video */
+.miwovideos_channel_thumb48 {
+    width          : 48px;
+    vertical-align : top;
+}
+
+.miwovideos_views_info {
+    display   : inline-block;
+    float     : right;
+    font-size : 11px;
+}
+
+.miwovideos_views_info li {
+    display : inline-block;
+}
+
+.miwovideos_views_info li + li:before {
+    content : '\002022';
+    margin  : 0 2px;
+}
+
+.miwovideos_channel_info {
+    display : inline-block;
+}
+
+.miwovideos_user_header .miwovideos_views_count {
+    float     : right;
+    font-size : 19px;
+}
+
+.miwovideos_user_header a:hover {
+    text-decoration : none;
+}
+
+.views_likes_dislikes {
+    float : right;
+}
+
+.likes_count {
+    /*float: left;*/
+}
+
+.dislikes_count {
+    /*float: right;*/
+}
+
+.video_description {
+    word-wrap : break-word;
+}
+
+.video_more {
+    text-align : center;
+    clear      : both;
+}
+
+.miwovideos_more_button {
+	color: black !important;
+	font-weight: normal;
+	padding: 1px 6px;
+	text-transform: none;
+    margin-top            : 10px;
+    background            : url(../images/button.png) #F8F8F8 bottom repeat-x !important;
+    -moz-border-radius    : 4px;
+    -webkit-border-radius : 4px;
+    -khtml-border-radius  : 4px;
+    border-radius         : 4px;
+  border                : none;
+}
+
+.video_published_date {
+    font-weight : bold;
+}
+
+.miwovideos_action_buttons {
+    margin-top : 10px;
+    padding    : 5px 15px !important;
+    background : url(../images/button.png) #F8F8F8 bottom repeat-x;
+}
+
+.miwovideos_expand {
+    /*border-bottom: 1px solid #CCC;*/
+}
+
+.miwovideos_custom_fields {
+    display    : inline-block;
+    float      : left;
+    text-align : left;
+}
+
+.miwovideos_custom_fields .title {
+    display     : inline-block;
+    font-weight : bold;
+    min-width   : 70px;
+}
+
+.miwovideos_custom_fields .content {
+    display     : inline-block;
+    margin-left : 20px;
+    color       : #999999 !important;
+}
+
+.miwovideos_playlist_subheader .miwovideos_actions {
+    display : inline-block;
+    /*margin-top: 10px;*/
+}
+
+.miwovideos_playlist_subheader .miwovideos_views_count {
+
+}
+
+.miwovideos_expander_collapsed {
+    margin-right : 250px;
+}
+
+.miwovideos_description .miwovideos_expander_collapsed {
+    margin-right : 0;
+}
+
+.miwovideos_expander {
+    margin-right : 250px;
+}
+
+.miwovideos_user_header {
+    margin-bottom : 10px;
+    margin-top    : 30px;
+}
+
+.miwovideos_actions {
+    /*margin-top: 10px;*/
+}
+
+.miwovideos_like_actions .dislike_button {
+    background : url(../images/thumbs.png) no-repeat;
+    float      : left;
+    height     : 14px;
+    width      : 16px;
+    cursor     : pointer;
+    margin-top : 3px;
+}
+
+.miwovideos_like_actions .dislike_button:hover {
+    /*background: url(../images/thumbs.png) no-repeat 0px -16px;*/
+}
+
+.miwovideos_like_actions .like_button {
+    background : url(../images/thumbs.png) no-repeat -16px 0px;
+    float      : left;
+    height     : 14px;
+    width      : 16px;
+    cursor     : pointer;
+}
+
+.miwovideos_like_actions .share_button:hover {
+    /*background: url(../images/thumbs.png) no-repeat -16px -16px;*/
+}
+
+.miwovideos_like_actions .share_button {
+    float  : left;
+    height : 14px;
+    width  : 16px;
+    cursor : pointer;
+}
+
+.miwovideos_like_actions .like_button:hover {
+    /*background: url(../images/thumbs.png) no-repeat -16px -16px;*/
+}
+
+.actions_btn {
+    float        : left;
+    margin-right : 5px;
+    padding      : 5px 15px !important;
+}
+
+.miwovideos_flow_select a.miwovideos_button.active {
+    border-color       : #C6C6C6;
+    background         : #DDDDDD;
+    -moz-box-shadow    : 0 1px 0 rgba(0, 0, 0, 0.10);
+    -ms-box-shadow     : 0 1px 0 rgba(0, 0, 0, 0.10);
+    -webkit-box-shadow : 0 1px 0 rgba(0, 0, 0, 0.10);
+    box-shadow         : 0 1px 0 rgba(0, 0, 0, 0.10);
+}
+
+.actions_btn:hover {
+    cursor     : pointer;
+    float      : left;
+    padding    : 5px 15px !important;
+    background : url(../images/button.png) #F8F8F8 bottom repeat-x;
+}
+
+.actions_btn span {
+    /*font-size: 11px;*/
+    float       : left;
+    margin-left : 3px;
+    cursor      : pointer;
+}
+
+.miwovideos_report {
+    max-width : 850px;
+}
+
+.miwovideos_report_explanation {
+    margin-top : 9px;
+}
+
+.miwovideos_report a.miwovideos_button {
+    float      : none !important;
+    margin     : 0 5px 2px 0 !important;
+    padding    : 5px 15px !important;
+    background : url(../images/button.png) #F8F8F8 bottom repeat-x;
+    cursor     : pointer;
+    border     : 1px solid #CECECE;
+}
+
+.miwovideos_report_text {
+    max-width        : 100%;
+    background-color : #EFEFEF;
+    padding          : 10px;
+}
+
+.miwovideos_report_text p {
+    color     : #555555;
+    font-size : 11px;
+}
+
+.miwovideos_report_success {
+    padding-bottom : 10px;
+}
+
+.miwovideos_embed {
+    max-width  : 100%;
+    max-height : 100%;
+    width      : 100%;
+    height     : 100px;
+}
+
+/* Video */
+
+span.subs_count {
+    color       : #6A7180;
+      line-height : 22px;
+    text-align  : center;
+    white-space : nowrap;
+}
+
+.miwovideos_subscribe_count {
+    background            : white;
+    border                : 1px solid #898F9C;
+    border-radius         : 2px;
+    -webkit-border-radius : 2px;
+    display               : inline-block;
+    margin-left           : 6px;
+    min-width             : 15px;
+    padding               : 2px 3px 1px 4px;
+    text-align            : center;
+    white-space           : nowrap;
+    vertical-align        : middle;
+    margin-top            : 1px;
+}
+
+.subs_nub {
+    position : absolute;
+    width    : 0;
+    height   : 0;
+      top      : 10px;
+    right    : 29px;
+}
+
+.subs_nub s, .subs_nub i {
+    border-color : transparent #898F9C;
+    border-style : solid;
+    border-width : 4px 5px 4px 0;
+    display      : block;
+    position     : relative;
+    top          : 1px;
+}
+
+.subs_nub i {
+    border-right-color : #FFFFFF;
+    left               : 2px;
+    top                : -7px;
+}
+
+.miwovideos_channel_info .miwovideos_subscribe {
+    float : left;
+}
+
+.miwovideos_subscribe {
+    position : relative;
+    float    : right;
+}
+
+.miwovideos_channel_header .miwovideos_subscribe {
+    float  : right;
+    margin : 12px 0;
+}
+
+.miwovideos_box {
+  line-height: 17px !important;
+    box-sizing: initial !important;
+    margin-bottom : 20px;
+}
+
+.miwovideos_header {
+    width : 100%;
+}
+
+.miwovideos_flow_select {
+    display : inline-block;
+    float   : right;
+}
+
+.miwovideos_flow_select a.miwovideos_button {
+    float      : left !important;
+    margin     : 0 !important;
+    padding    : 5px 15px !important;
+    background : url(../images/button.png) #F8F8F8 bottom repeat-x;
+    cursor     : pointer;
+    border     : 1px solid #CECECE;
+}
+
+.miwovideos_flow_buttons {
+    cursor     : pointer;
+    padding    : 5px 15px !important;
+    background : url(../images/button.png) #F8F8F8 bottom repeat-x;
+}
+
+.miwovideos_box_heading {
+    -webkit-border-radius : 7px 7px 0px 0px;
+    -moz-border-radius    : 7px 7px 0px 0px;
+    -khtml-border-radius  : 7px 7px 0px 0px;
+    border-radius         : 7px 7px 0px 0px;
+    border                : 1px solid #DBDEE1;
+    background            : url('../images/background.png') repeat-x;
+    padding               : 8px 10px 7px 10px;
+    font-family           : Arial, Helvetica, sans-serif;
+    font-size             : 14px;
+    font-weight           : bold;
+    line-height           : 14px;
+    color                 : #333333;
+}
+
+.miwovideos_box_content {
+    -webkit-border-radius : 0px 0px 7px 7px;
+    -moz-border-radius    : 0px 0px 7px 7px;
+    -khtml-border-radius  : 0px 0px 7px 7px;
+    border-radius         : 0px 0px 7px 7px;
+    border-left           : 1px solid #DBDEE1;
+    border-right          : 1px solid #DBDEE1;
+    border-bottom         : 1px solid #DBDEE1;
+    padding               : 10px;
+    margin                : 0px;
+    word-break            : break-word;
+}
+
+.miwovideos_box_content h4 {
+    display : inline-block;
+}
+
+.miwovideos_box_h1 {
+    border         : 0 none !important;
+    font-family    : Arial, Helvetica, sans-serif !important;
+    font-size      : 14px !important;
+    font-weight    : bold !important;
+    line-height    : 14px !important;
+    margin         : 0 !important;
+    padding        : 0 !important;
+    text-transform : none !important;
+}
+
+.miwovideos_box_h3 {
+    display : inline-block;
+    margin  : 0 !important;
+    padding : 0 !important;
+    width : 70%;
+}
+
+.videos-items-grid-box-content .miwovideos_box_h3 {
+    width : 100%;
+}
+
+.miwovideos_box_h3 a:link {
+    text-decoration : none !important;
+}
+
+.miwovideos_box_content_left {
+    display : inline-block;
+    /*float: left;
+    width: 59% !important; /* 61 */
+}
+
+.miwovideos_box_content_right {
+    float : right;
+    width : 38% !important; /* 38 */
+}
+
+.miwovideos_box_content_l {
+    float : left;
+    /*width: 59% !important;*/
+    /* 61 */
+}
+
+.miwovideos_box_content_r {
+    float : right;
+    /*width: 38% !important;*/
+    /* 38 */
+}
+
+.miwovideos_box_content_img {
+    height     : 100px;
+    width      : 259px;
+    max-width  : 100px;
+    max-height : 100px;
+    float      : left !important;
+    /*margin: 12px 15px 0 0;*/
+    border     : 1px solid #CCCCCC;
+}
+
+.miwovideos_box_content_img2 {
+    /*float: left !important;*/
+    margin : 0px 10px 0 0;
+    border : 1px solid #CCCCCC;
+}
+
+.miwovideos_box_content_cont {
+    width         : 99%;
+    border-bottom : 1px solid #E7E7E7;
+    /*font-size: 15px;*/
+    overflow      : auto;
+    margin-bottom : 10px;
+    padding       : 0 5px 15px;
+}
+
+.miwovideos_box_content_cont2 {
+    width         : 99%;
+    /*font-size: 15px;*/
+    overflow      : auto;
+    margin-bottom : 10px;
+    padding       : 15px 5px 10px;
+}
+
+.miwovideos_box_content_40 {
+    float       : left;
+    width       : 40%;
+    line-height : 25px;
+}
+
+.miwovideos_box_content_60 {
+    float       : left;
+    width       : 60%;
+    line-height : 25px;
+}
+
+.miwovideos_box_content_100 {
+    float       : left;
+    width       : 99%;
+    line-height : 25px;
+}
+
+.miwovideos_box_content_warning {
+    text-align : justify;
+    padding    : 15px 5px 0 0;
+    margin     : 0;
+    width      : 100%;
+    float      : left;
+}
+
+.miwovideos_box_content_bottom {
+    padding : 0 0 6px 0;
+    margin  : 0 0 6px 0;
+}
+
+.miwovideos_box_content_50 {
+    width : 50%;
+}
+
+.miwovideos_box_content_49 {
+    width          : 49%;
+    display        : inline-block;
+    vertical-align : top;
+}
+
+.miwovideos_box_content_99 {
+    width : 99%;
+}
+
+a.miwovideos_button {
+    float                 : left !important;
+    margin                : 0 5px 2px 0 !important;
+    padding               : 5px 15px !important;
+    background            : url(../images/button.png) #F8F8F8 bottom repeat-x;
+    -moz-border-radius    : 7px;
+    -webkit-border-radius : 7px;
+    -khtml-border-radius  : 7px;
+    border-radius         : 7px;
+    cursor                : pointer;
+    border                : 1px solid #CECECE;
+}
+
+a.miwovideos_button_right {
+    padding               : 5px 15px !important;
+    background            : url(../images/button.png) #F8F8F8 bottom repeat-x;
+    -moz-border-radius    : 7px;
+    -webkit-border-radius : 7px;
+    -khtml-border-radius  : 7px;
+    border-radius         : 7px;
+    cursor                : pointer;
+    border                : 1px solid #CECECE;
+}
+
+a.miwovideos_button_right:hover {
+    text-decoration : none;
+    background      : url(../images/button.png) #E0E0E0 repeat-x;
+}
+
+a.miwovideos_button:link,
+a.miwovideos_button:visited {
+    text-decoration : none;
+}
+
+a.miwovideos_button:hover {
+    text-decoration : none;
+    background      : url(../images/button.png) #E0E0E0 repeat-x;
+}
+
+a.miwovideos_button:link,
+a.miwovideos_button:visited {
+    border : 1px solid #CECECE;
+}
+
+/* ------------------------------------------------------------- */
+/* ------------------------------------------------------------- */
+/* ------------------------------------------------------------- */
+/* ------------------------------------------------------------- */
+/* ---------- Reset styles ------------------------------------- */
+img {
+    border : 0 none;
+}
+
+h1.miwovideos_title,
+h2.miwovideos_title,
+h3.miwovideos_title {
+    width   : auto !important;
+    margin  : 0 !important;
+    padding : 0 !important;
+}
+
+h2.search_result_header {
+    margin-bottom : 8px;
+}
+
+h1.channel_header {
+    font-weight : normal;
+    font-size   : 12px;
+}
+
+/* Remove the following line if you have problems with the alignment of your theme */
+.clr {
+    clear : both;
+}
+
+.miwovideos_props {
+    width          : 235px; /* 270px;*/
+    padding-left   : 10px;
+    padding-top    : 5px;
+    padding-bottom : 5px;
+    overflow       : hidden;
+    border         : 1px solid #CCCCCC;
+    display        : block;
+    float          : inherit;
+}
+
+.miwovideos_prop {
+    float : left;
+}
+
+.miwovideos_props span.miwovideos_label {
+    width       : 120px; /* 110 */
+    min-height  : 24px;
+    display     : block;
+    overflow    : hidden;
+    float       : left;
+    font-weight : bold;
+    position    : relative;
+}
+
+.miwovideos_props span.miwovideos_content {
+    width      : 100px; /* 155 */
+    min-height : 24px;
+    display    : block;
+    overflow   : hidden;
+    float      : left;
+    position   : relative;
+}
+
+.miwovideos_props span.miwovideos_label2 {
+    width       : 150px;
+    min-height  : 24px;
+    display     : block;
+    overflow    : hidden;
+    float       : left;
+    font-weight : bold;
+    position    : relative;
+}
+
+.miwovideos_props span.miwovideos_content2 {
+    width      : 150px;
+    min-height : 24px;
+    display    : block;
+    overflow   : hidden;
+    float      : left;
+    position   : relative;
+}
+
+/* ---------- Global styles ------------------------------------ */
+
+#miwovideos_header {
+    height        : 55px;
+    border-bottom : 1px dotted #DDDDDD;
+    text-align    : center;
+}
+
+#miwovideos_header div {
+    float   : left;
+    padding : 3px;
+    width   : 30%;
+}
+
+#miwovideos_header a, #miwovideos_header span {
+    display         : block;
+    padding-bottom  : 5px;
+    text-decoration : none;
+    text-align      : center;
+}
+
+#miwovideos_pathway {
+    font-size     : 11px;
+    text-align    : left;
+    background    : #DDDDDD;
+    margin-bottom : 5px;
+    padding       : 3px 3px 3px 10px;
+}
+
+/*.miwovideos_row { background: #FFF url(../images/bg-gradient.png) repeat-x; }*/
+
+/* ---------- Categories styles ------------------------------------- */
+
+#miwovideos_cats {
+    text-align : left;
+}
+
+#miwovideos_cats h2.miwovideos_title {
+    margin : 14px 0 !important;
+}
+
+#miwovideos_cats h3.miwovideos_title {
+    margin : 0 0 7px 0 !important;
+}
+
+#miwovideos_cats .miwovideos_row {
+    padding : 15px;
+}
+
+#miwovideos_cats .miwovideos_row img {
+    float   : left !important;
+    margin  : 0 10px 0 0 !important;
+    padding : 0 !important;
+}
+
+#miwovideos_cats .miwovideos_box_heading .category-item-thumb16 {
+    width : 18px;
+}
+
+.miwovideos_cat .category-item-thumb80 {
+    width   : 80px;
+    display : inline-block;
+    float   : left;
+}
+
+/* ---------- Category styles --------------------------------------- */
+
+.miwovideos_cat {
+    padding : 10px 0;
+    width   : 100%;
+}
+
+.miwovideos_cat h1.miwovideos_title {
+    margin : 0 0 10px 0 !important;
+}
+
+.miwovideos_cat img.miwovideos_thumb-left, .miwovideos_row img.miwovideos_thumb-left {
+    margin : 0 15px 0 0 !important;
+    float  : left !important;
+}
+
+.miwovideos_cat img.miwovideos_thumb-right {
+    margin : 0 0 0 15px !important;
+    float  : right !important;
+}
+
+.miwi_description {
+    word-break  : break-word;
+    display     : inline-block;
+    width       : 85%;
+    margin-left : 10px;
+}
+
+/* ---------- Videos styles -------------------------------------- */
+
+#miwovideos_docs {
+    text-align : left;
+}
+
+#miwovideos_docs h2.miwovideos_title {
+    margin : 14px 0 !important;
+    display: inline-block;
+}
+
+#miwovideos_docs .miwovideos_flow_select {
+    margin : 11px 0;
+}
+
+#miwovideos_docs h3.miwovideos_title {
+    margin     : 0 0 10px 0 !important;
+    padding    : 15px 0 5px 0 !important;
+    min-height : 30px !important;
+    height     : auto !important;
+    height     : 30px;
+}
+
+#miwovideos_docs h3.miwovideos_title img {
+    float  : left !important;
+    margin : 0 10px 0 0;
+}
+
+#miwovideos_docs .miwovideos_row {
+    padding : 0 15px 15px 15px;
+}
+
+#miwovideos_docs .miwovideos_row .miwovideos_details {
+    float  : right;
+    width  : 200px;
+    margin : 0 0 0 10px;
+}
+
+#miwovideos_docs .miwovideos_row .miwovideos_details div {
+    width                 : 100%;
+    margin                : 0 0 5px 0;
+    padding               : 3px 0;
+    text-align            : center;
+    border                : 1px dotted #E0E0E0;
+    background            : #F8F8F8;
+    -moz-border-radius    : 7px;
+    -webkit-border-radius : 7px;
+}
+
+#miwovideos_docs .miwovideos_row .miwovideos_details table {
+    padding               : 5px 0 0 0 !important;
+    margin                : 0 !important;
+    border                : 1px dotted #D0D0D0;
+    width                 : 100%;
+    -moz-border-radius    : 7px;
+    -webkit-border-radius : 7px;
+}
+
+#miwovideos_docs .miwovideos_row .miwovideos_details td {
+    padding : 0 0 5px 5px !important;
+    margin  : 0 !important;
+}
+
+#miwovideos_docs .miwovideos_row .miwovideos_description {
+    padding : 0 5px 0 0;
+    margin  : 0;
+}
+
+/* ---------- Details styles ---------------------------------------- */
+#miwovideos_details {
+    clear      : left;
+    width      : 100%;
+    text-align : left;
+    float      : left;
+    margin     : 15px 15px 25px 0px;
+}
+
+#miwovideos_details img {
+    margin : 10px 10px 10px 0px;
+}
+
+#miwovideos_details table {
+    width           : 100%;
+    border-top      : 1px solid #D0D0D0;
+    border-left     : 1px solid #D0D0D0;
+    border-collapse : collapse;
+}
+
+#miwovideos_details table caption {
+    margin      : auto;
+    padding     : 5px 0 5px 0;
+    font-weight : bold;
+}
+
+#miwovideos_details table td {
+    padding       : 5px;
+    border-right  : 1px solid #D0D0D0;
+    border-bottom : 1px solid #D0D0D0;
+}
+
+#miwovideos_details table thead {
+    background  : url(../images/bg-header.png) #F8F8F8 bottom repeat-x;
+    font-weight : bold;
+    padding     : 5px;
+}
+
+#miwovideos_details table thead td {
+    text-align : left;
+}
+
+#miwovideos_details table col#prop {
+    width : 25%;
+}
+
+div.current {
+    clear                 : both;
+    border                : 1px solid #CCCCCC;
+    padding               : 10px 10px;
+    -moz-border-radius    : 7px;
+    -webkit-border-radius : 7px;
+    -khtml-border-radius  : 7px;
+    border-radius         : 7px;
+}
+
+div.current dd {
+    padding : 0;
+    margin  : 0;
+}
+
+.title_cell {
+    font-weight  : bold;
+    padding-left : 5px;
+}
+
+.field_cell {
+
+}
+
+.required {
+    color        : red;
+    padding-left : 5px;
+}
+
+.heading {
+    font-size       : 15px;
+    font-weight     : bold;
+    text-decoration : underline;
+}
+
+.info {
+    color      : #2C79B3;
+    margin-top : 10px;
+}
+
+.price_col {
+    width      : 10%;
+    text-align : right;
+}
+
+.order_col {
+    width      : 13%;
+    text-align : center;
+}
+
+table.item_list {
+    margin-top : 10px;
+}
+
+table.doc_list {
+
+}
+
+.no_col {
+    width : 5%;
+}
+
+.date_col {
+    width : 20%;
+}
+
+.capacity_col {
+    width : 8%;
+}
+
+.registered_col {
+    width : 8%;
+}
+
+/** Channel Grid */
+.items-grid-box {
+    overflow           : hidden;
+    width              : 356px;
+    margin-bottom      : 20px;
+    border             : solid 1px #D9D9D9;
+    -moz-box-shadow    : 0 1px 2px #D9D9D9;
+    -ms-box-shadow     : 0 1px 2px #D9D9D9;
+    -webkit-box-shadow : 0 1px 2px #D9D9D9;
+    box-shadow         : 0 1px 2px #D9D9D9;
+}
+
+.items-grid-thumb {
+    width   : 100px;
+    float   : left;
+    display : block;
+}
+
+.items-grid-box .items-grid-box-content {
+    padding : 9px 18px;
+}
+
+.channel-items-list-thumb {
+    top              : 0;
+    left             : 30px;
+    height           : 100px;
+    width            : 100px;
+    position         : absolute;
+    background-color : #DDDDDD;
+    background-color : rgba(0, 0, 0, .2);
+    display          : inline-block;
+}
+
+.banner_image {
+    position            : relative;
+    height              : 175px;
+    background-size     : cover;
+    background-color    : #333333;
+    background-position : center center;
+}
+
+/** Channel Grid */
+
+/** PRODUCT LIST */
+#miwovideos_docs h4 {
+    font-size : 150%;
+    padding   : 0;
+    margin    : 0 0 15px 0;
+}
+
+#miwovideos_docs h4 a {
+    font-weight : bold;
+}
+
+#miwovideos_docs dl {
+    /*background: none repeat scroll 0 0 #ECF4FB;*/
+    border  : 1px solid #CCCCCC;
+    padding : 5px 5px 5px 10px;
+    margin  : 0 5px 5px;
+    float   : right;
+}
+
+#miwovideos_docs dt,
+#miwovideos_row dt {
+    float       : left;
+    font-weight : bold;
+}
+
+#miwovideos_docs dt {
+    width : 110px;
+}
+
+#miwovideos_row dt {
+    width : 100px;
+}
+
+#miwovideos_docs dd,
+#miwovideos_row dd {
+    font-weight : normal;
+}
+
+#miwovideos_docs dd {
+    margin-left : 90px;
+}
+
+#miwovideos_row dd {
+    margin-left : 100px;
+}
+
+.miwovideos_price {
+    color : #E43101;
+}
+
+.bubble li {
+    list-style-type  : none;
+    background-image : none;
+    line-height      : 18px;
+    margin-left      : 2px;
+    font-size        : 13px;
+}
+
+.bubble .channel_name {
+    font-weight : bold;
+}
+
+li.getdirection a {
+    font-weight : bold;
+}
+
+div#detail_right {
+    float : right;
+    width : 40%;
+}
+
+div#detail_left {
+    float : left;
+    width : 58%;
+}
+
+.miwovideos_no_column {
+    text-align : center;
+}
+
+.miwovideos_number_registrant_column {
+    text-align : center;
+}
+
+.miwovideos_rate_column {
+    text-align : right;
+}
+
+/*Calendar view for css*/
+
+.regpro_calendar {
+    background-color : #29363E;
+    color            : #000000;
+    vertical-align   : top;
+}
+
+.regpro_calendarMonthHeader {
+    background-color : #29363E;
+    text-align       : center;
+    vertical-align   : middle;
+    border-left      : 1px solid #65879B;
+    border-top       : 1px solid #65879B;
+}
+
+.regpro_calendar_table {
+
+}
+
+.regpro_calendarWeekDayHeader {
+    font-weight    : bolder;
+    background     : #3E525E url(../images/tile.gif) repeat-x center bottom;
+    text-align     : center;
+    vertical-align : middle;
+    padding        : 5px;
+    color          : #FFFFFF;
+    border-left    : 1px solid #4F6A79;
+}
+
+.regpro_calendarDay {
+    background-color : #EFEFEF;
+    width            : 60px;
+    height           : 60px;
+    text-align       : left;
+    font-weight      : bolder;
+    vertical-align   : top;
+    font-size        : 12px;
+    font-style       : normal;
+    border-left      : 1px solid #FFFFFF;
+    border-top       : 1px solid #FFFFFF;
+    padding          : 5px;
+}
+
+.regpro_calenderday_highlight {
+    background-color : #DAD9CE;
+    text-align       : left;
+    vertical-align   : top;
+    font-weight      : bolder;
+    width            : 60px;
+    height           : 60px;
+    padding          : 5px;
+    border-left      : 1px solid #FFFFFF;
+    border-top       : 1px solid #FFFFFF;
+}
+
+.regpro_calendar_years {
+    height           : 22px;
+    text-align       : left;
+    border           : 0px #C9D8FC;
+    background-color : #EFEFEF;
+    vertical-align   : top;
+    margin           : 0;
+    font-size        : 14px;
+}
+
+.regpro_calendar_years:hover {
+    background : #FFFFFF;
+}
+
+.regpro_calendar_months {
+    height           : 22px;
+    text-align       : left;
+    border           : 0px #C9D8FC;
+    background-color : #EFEFEF;
+    vertical-align   : top;
+    margin           : 0;
+    font-size        : 14px;
+}
+
+.regpro_calendar_months:hover {
+    background : #FFFFFF;
+}
+
+h1.channel_header {
+    margin-top : 5px;
+}
+
+a.view_map_link {
+    padding-left : 10px;
+    font-weight  : bold;
+    font-size    : 90%;
+}
+
+.miwovideos_notice {
+    background-color : #FCF3F3;
+    border           : 1px solid #FDE2E2;
+    margin           : 20px 0 30px;
+    padding          : 8px;
+    width            : 60%;
+    text-align       : center;
+    font-style       : italic;
+}
+
+.miwovideos_notice_table {
+    background-color : #FCF3F3;
+    border           : 1px solid #FDE2E2;
+    padding          : 3px;
+    width            : 98%;
+    padding          : 4px;
+    text-align       : center;
+    font-style       : italic;
+}
+
+.miwovideos_row_heading {
+    font-weight : bold;
+    font-size   : 120%;
+}
+
+td.title_cell {
+    width : 30%;
+}
+
+.channel_link {
+    font-weight : bold;
+    color       : #446611;
+}
+
+table.header td.caption {
+    text-align : left !important;
+}
+
+.coupon_row {
+
+}
+
+.invalid {
+    color : red;
+}
+
+/*Social bookmark*/
+#miwosvideos-social-buttons-box {
+    width         : 100%;
+    float         : left;
+    border-bottom : thin solid #808080
+}
+
+#miwosvideos-social-buttons-box h4 {
+    border-bottom : thin solid #808080;
+}
+
+#miwovideos_share_text {
+    float       : left;
+    font-weight : bold;
+    padding-top : 15px;
+    font-size   : 150%;
+}
+
+#miwovideos_share_button {
+    float       : left;
+    margin-left : 10px;
+}
+
+#fb_share_button {
+    display : inline;
+}
+
+/*Registrant list style*/
+.list_first_name {
+    width : 15%;
+}
+
+.list_last_name {
+    width : 9%;
+}
+
+.list_video {
+
+}
+
+.list_video_date {
+    width : 10%;
+}
+
+.list_email {
+    width : 10%;
+}
+
+.list_registrant_number {
+    width : 8%;
+}
+
+.list_amount {
+    text-align : right;
+    width      : 6%;
+}
+
+.list_id {
+    text-align : center;
+    width      : 15%;
+}
+
+/**CSS for cart page**/
+.col_no {
+    width : 5%;
+}
+
+.col_action {
+    width      : 10%;
+    text-align : center;
+}
+
+.col_quantity {
+    width      : 12%;
+    text-align : center;
+}
+
+.col_price {
+    text-align : right;
+    width      : 10%;
+}
+
+.quantity_box {
+    text-align : center;
+}
+
+span.total_amount {
+    font-weight : bold;
+}
+
+.col_subtotal {
+    text-align : right;
+}
+
+.qty_title, .miwovideos_rate {
+    font-weight : bold;
+}
+
+span.error {
+    color     : red;
+    font-size : 150%;
+}
+
+.col_video_date {
+    width      : 17%;
+    text-align : center;
+}
+
+span.view_list {
+    font-weight : bold;
+}
+
+.miwovideos_form_header {
+    font-weight : bold;
+    font-size   : 15px;
+}
+
+/**Borrow some admin-css for adding videos from front-end*/
+/* standard form style table */
+div.col {
+    float : left;
+}
+
+div.width-45 {
+    width : 45%;
+}
+
+div.width-55 {
+    width : 55%;
+}
+
+div.width-50 {
+    width : 50%;
+}
+
+div.width-70 {
+    width : 70%;
+}
+
+div.width-30 {
+    width : 30%;
+}
+
+div.width-60 {
+    width : 60%;
+}
+
+div.width-40 {
+    width : 40%;
+}
+
+div.width-100 {
+    width : 100%;
+}
+
+table.admintable td {
+    padding : 3px;
+}
+
+table.admintable td.key,
+table.admintable td.paramlist_key {
+    background-color : #F6F6F6;
+    text-align       : right;
+    width            : 140px;
+    color            : #666666;
+    font-weight      : bold;
+    border-bottom    : 1px solid #E9E9E9;
+    border-right     : 1px solid #E9E9E9;
+}
+
+table.paramlist td.paramlist_description {
+    background-color : #F6F6F6;
+    text-align       : left;
+    width            : 170px;
+    color            : #333333;
+    font-weight      : normal;
+    border-bottom    : 1px solid #E9E9E9;
+    border-right     : 1px solid #E9E9E9;
+}
+
+table.admintable td.key.vtop {
+    vertical-align : top;
+}
+
+table.adminform {
+    background-color : #F9F9F9;
+    border           : solid 1px #D5D5D5;
+    width            : 100%;
+    border-collapse  : collapse;
+    margin           : 8px 0 10px 0;
+    margin-bottom    : 15px;
+    width            : 100%;
+}
+
+table.adminform.nospace {
+    margin-bottom : 0;
+}
+
+table.adminform tr.row0 {
+    background-color : #F9F9F9;
+}
+
+table.adminform tr.row1 {
+    background-color : #EEEEEE;
+}
+
+table.adminform th {
+    font-size         : 11px;
+    padding           : 6px 2px 4px 4px;
+    text-align        : left;
+    height            : 25px;
+    color             : #000000;
+  line-height     : 22px;
+    background-repeat : repeat;
+}
+
+table.adminform td {
+    padding    : 3px;
+    text-align : left;
+}
+
+table.adminform td.filter {
+    text-align : left;
+}
+
+table.adminform td.helpMenu {
+    text-align : right;
+}
+
+fieldset.adminform {
+    border     : 1px solid #CCCCCC;
+    margin     : 0 10px 10px 10px;
+    background : none;
+}
+
+/** Table styles **/
+
+table.adminlist {
+    width            : 100%;
+    border-spacing   : 1px;
+    background-color : #E7E7E7;
+    color            : #666666;
+}
+
+table.adminlist td,
+table.adminlist th {
+    padding : 4px;
+}
+
+table.adminlist thead th {
+    text-align    : center;
+    background    : #F0F0F0;
+    color         : #666666;
+    border-bottom : 1px solid #999999;
+    border-left   : 1px solid #FFFFFF;
+}
+
+table.adminlist thead a:hover {
+    text-decoration : none;
+}
+
+table.adminlist thead th img {
+    vertical-align : middle;
+}
+
+table.adminlist tbody th {
+    font-weight : bold;
+}
+
+table.adminlist tbody tr {
+    background-color : #FFFFFF;
+    text-align       : left;
+}
+
+table.adminlist tbody tr.row1 {
+    background : #F9F9F9;
+    border-top : 1px solid #FFFFFF;
+}
+
+table.adminlist tbody tr.row0:hover td,
+table.adminlist tbody tr.row1:hover td {
+    background-color : #FFFFDD;
+}
+
+table.adminlist tbody tr td {
+    height     : 25px;
+    background : #FFFFFF;
+    border     : 1px solid #FFFFFF;
+}
+
+table.adminlist tbody tr.row1 td {
+    background : #F9F9F9;
+    border-top : 1px solid #FFFFFF;
+}
+
+table.adminlist tfoot tr {
+    text-align : center;
+    color      : #333333;
+}
+
+table.adminlist tfoot td,
+table.adminlist tfoot th {
+    background-color : #F3F3F3;
+    border-top       : 1px solid #999999;
+    text-align       : center;
+}
+
+table.adminlist td.order {
+    text-align  : center;
+    white-space : nowrap;
+}
+
+table.adminlist td.order span {
+    float      : left;
+    display    : block;
+    width      : 20px;
+    text-align : center;
+}
+
+table.adminlist .pagination {
+    display : table;
+    padding : 0;
+    margin  : 0 auto;
+}
+
+/* Mini Calendar */
+
+.miwovideos_minicalendar_monthyear {
+    color       : #F0F0F0;
+    cursor      : pointer;
+    font-weight : bold;
+    height      : 21px !important;
+    line-height : 21px;
+    text-align  : center !important;
+    width       : 100% !important;
+}
+
+a.mod_miwovideos_minicalendar_link:link {
+    color : white;
+}
+
+a.mod_miwovideos_minicalendar_link:hover {
+    color : yellow;
+}
+
+.miwovideos_minicalendar_monthyear a.mod_miwovideos_minicalendar_link {
+    color           : #F0F0F0;
+    font-weight     : bold !important;
+    text-decoration : none;
+}
+
+.mod_miwovideos_mincalendar_table {
+    font-family     : Arial;
+    font-size       : 12px;
+    font-style      : normal;
+    margin-bottom   : 0.25em;
+    text-align      : center;
+    text-decoration : none;
+    width           : 100% !important;
+}
+
+.mod_miwovideos_mincalendar_dayname {
+    font-family     : Arial;
+    font-size       : 12px;
+    font-style      : normal;
+    text-align      : center;
+    text-decoration : none;
+}
+
+.mod_miwovideos_mincalendar_td_dayname {
+    color       : #F0F0F0;
+    font-weight : bold;
+    height      : 15px !important;
+    line-height : 15px;
+    text-align  : center !important;
+}
+
+.mod_miwovideos_mincalendar_td_dayname .sunday {
+    color : #99AAAA;
+}
+
+.mod_miwovideos_mincalendar_td_dayname .saturday {
+    color : #99AAAA;
+}
+
+td.mod_miwovideos_mincalendar_today {
+    background-color : #FFFFFF;
+    color            : #000000;
+    padding          : 0 !important;
+}
+
+td.mod_miwovideos_mincalendar_not_today, td.mod_miwovideos_mincalendar_no_video a {
+    font-size   : 11px;
+    font-style  : normal;
+    font-weight : bold;
+    padding     : 3px 2px;
+    color       : #FFFFFF;
+}
+
+td.mod_miwovideos_mincalendar_video {
+    background-color : #607F93;
+    padding          : 0 !important;
+}
+
+a.miwovideos_minical_link:hover {
+    color           : yellow;
+    text-decoration : none;
+}
+
+a.miwovideos_minical_link SPAN.sunday {
+    color : #99AAAA;
+}
+
+a.miwovideos_minical_link SPAN.saturday {
+    color : #99AAAA;
+}
+
+td.mod_miwovideos_mincalendar_video a, td.mod_miwovideos_mincalendar_video a.miwovideos_minical_link span.sunday, td.mod_miwovideos_mincalendar_video a.miwovideos_minical_link SPAN.saturday {
+    color : #FFFFFF;
+}
+
+.extcal_minical .extcal_navbar {
+    background-repeat : repeat-x;
+    border-bottom     : 1px solid #B4B4B6;
+}
+
+.extcal_minical .extcal_month_label a {
+    color       : #FFFFFF;
+    font-size   : 11px;
+    font-weight : bold;
+}
+
+.mod_miwovideos_minicalendar_link {
+    color       : #FFFFFF;
+    font-size   : 11px;
+    font-weight : bold;
+}
+
+#extcalendar .topmenu_calendar ul li {
+    float      : left;
+    margin     : 0 0 0 5px;
+    padding    : 0;
+    list-style : none;
+    display    : block;
+}
+
+#extcalendar .topmenu_calendar ul li {
+    line-height : normal;
+}
+
+table.search_table, table.search_table td, table.search_table td select#category_id, table.search_table td select#channel_id, table.search_table td input#search_miwovideos_box {
+    width : 100%;
+}
+
+p {
+    display : inline-block;
+}
+
+span.number_videos {
+    font-size   : 95%;
+    font-weight : bold;
+}
+
+div.current {
+    /*max-width: 850px !important ;*/
+}
+
+td.miwovideos_image_column {
+    width : 12%;
+}
+
+form#adminForm ul.nav-tabs li {
+    list-style   : none;
+    background   : none;
+    padding-left : 0px;
+}
+
+table.admintable td label {
+    clear     : none;
+    min-width : 40px;
+    margin    : 3px 2px;
+    display   : inline-block;
+}
+
+fieldset.adminform {
+    border : none;
+}
+
+.form-horizontal label.control-label {
+    text-align : left;
+}
+
+.form-horizontal div.controls label {
+    clear     : none;
+    min-width : 40px;
+    display   : inline-block;
+}
+
+.addthis_toolbox {
+    margin-top : 10px;
+}
+
+/* #Mobile (Portrait)
+/* Note: Design for a width of 320px */
+@media only screen and (max-width : 767px) {
+
+    .videos-items-grid-thumb {
+        width : 100%;
+        float : none;
+    }
+
+}
+
+@media only screen and (min-width : 480px) and (max-width : 767px) {
+
+    .videos-items-grid-thumb {
+        width : 100%;
+        float : none;
+    }
+}
+
+@media only screen and (max-width : 360px) {
+
+    .videos-items-grid-thumb {
+        width : 100%;
+        float : none;
+    }
+}
+
+.miwovideos_column1 {
+    width         : 100%;
+    padding       : 0;
+    margin-bottom : 20px;
+}
+
+.miwovideos_column2 {
+    width          : 47%;
+    display        : inline-block;
+    margin         : 0 1%;
+    margin-bottom  : 20px;
+    padding        : 0;
+    vertical-align : top;
+}
+
+.miwovideos_column3 {
+    width          : 30%;
+    display        : inline-block;
+    margin         : 0 1%;
+    margin-bottom  : 20px;
+    padding        : 0;
+    vertical-align : top;
+}
+
+.miwovideos_column4 {
+    width          : 22%;
+    display        : inline-block;
+    margin         : 0 1%;
+    margin-bottom  : 20px;
+    padding        : 0;
+    vertical-align : top;
+}
+
+.miwovideos_column5 {
+    width          : 17%;
+    display        : inline-block;
+    margin         : 0 1%;
+    margin-bottom  : 20px;
+    padding        : 0;
+    vertical-align : top;
+}
+
+.miwovideos_column6 {
+    width          : 14%;
+    float          : left;
+    margin         : 0 1%;
+    margin-bottom  : 20px;
+    padding        : 0;
+    vertical-align : top;
+}
+
+.jwhd.jwbuttoncontainer .jwoverlay {
+    width : 216%;
+}
+
+.jwfullscreen.jwbuttoncontainer .jwoverlay {
+    width : 277%;
+}
+
+.jwrail.jwsmooth .jwoverlay {
+    width : 15%;
+}
+
+.share-panel-url-container {
+    margin-bottom : 0;
+    margin-top    : 10px;
+    clear         : left;
+}
+
+#share_url {
+    width        : 100%;
+    margin-right : 15px;
+    padding      : 2px;
+}
+
+.start-time-checkbox {
+    border         : 1px solid #C6C6C6;
+    display        : inline-block;
+    vertical-align : middle;
+    cursor         : pointer;
+}
+
+#share_at_time {
+    width         : 50px;
+    padding       : 5px 10px 6px;
+    margin-top    : 0;
+    margin-bottom : 0;
+    font-size     : 13px;
+}

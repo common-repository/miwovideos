@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="Admin / User Dashboard">
+		<message>Display the admin / user dashboard view.</message>
+	</layout>
+	<state>
+		<name>Admin / User Dashboard</name>
+	</state>
+</metadata>
